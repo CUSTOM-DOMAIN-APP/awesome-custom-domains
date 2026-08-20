@@ -14,6 +14,7 @@ Maintained by [CustomDomain.ai](https://customdomain.ai). Contributions welcome,
 - [Reference implementations and examples](#reference-implementations-and-examples)
 - [Email domain authentication](#email-domain-authentication)
 - [MCP servers and AI-agent tooling](#mcp-servers-and-ai-agent-tooling)
+- [Datasets](#datasets)
 - [Reading](#reading)
 
 ## Managed services
@@ -65,6 +66,10 @@ Connecting a domain for email means DNS records for authentication, not just rou
 - [domain-check](https://github.com/saidutt46/domain-check) - Domain availability checking with MCP support.
 - [MCP Registry](https://registry.modelcontextprotocol.io) - The official Model Context Protocol server registry.
 - [connect-domain-for-ai-agents](https://github.com/CUSTOM-DOMAIN-APP/connect-domain-for-ai-agents) - Guide repo: agents that provision websites and need real domains.
+
+## Datasets
+
+- [SaaS custom-domain docs directory](saas-docs-directory/) - A machine-readable directory of real SaaS help/docs pages for connecting a custom domain (170+ pages across 50+ products), plus the reproducible SERP → sitemap → Common Crawl pipeline and the columnar-index recipe used to build it.
 
 ## Reading
 
