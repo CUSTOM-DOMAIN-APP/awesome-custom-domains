@@ -20,6 +20,7 @@ Maintained by [CustomDomain.ai](https://customdomain.ai). Contributions welcome,
 - [MCP servers and AI-agent tooling](#mcp-servers-and-ai-agent-tooling)
 - [Diagnostics](#diagnostics)
 - [Field guides by vertical](#field-guides-by-vertical)
+- [Datasets](#datasets)
 - [Reading](#reading)
 
 ## Managed services
@@ -142,6 +143,10 @@ Longer-form guides maintained by CustomDomain, one per vertical. Vendor-authored
 - [connect-domain-for-ai-agents](https://github.com/CUSTOM-DOMAIN-APP/connect-domain-for-ai-agents) - Agents that provision websites and need real domains, and what an agent-safe DNS surface looks like.
 - [connect-domain-for-email-platforms](https://github.com/CUSTOM-DOMAIN-APP/connect-domain-for-email-platforms) - Onboarding customer sending domains with automated SPF/DKIM/DMARC setup.
 - [connect-domain-for-website-builders](https://github.com/CUSTOM-DOMAIN-APP/connect-domain-for-website-builders) - Apex versus subdomain, CNAME flattening, and the records a site builder has to write.
+
+## Datasets
+
+- [SaaS custom-domain docs directory](saas-docs-directory/) - A machine-readable directory of real SaaS help/docs pages for connecting a custom domain (170+ pages across 50+ products), plus the reproducible SERP → sitemap → Common Crawl pipeline and the columnar-index recipe used to build it.
 
 ## Reading
 

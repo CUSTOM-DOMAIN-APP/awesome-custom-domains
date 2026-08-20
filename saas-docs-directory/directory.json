@@ -1,0 +1,1378 @@
+[
+  {
+    "product": "aasaan",
+    "vendor_host": "readme.io",
+    "doc_url": "https://aasaan.readme.io/reference/post_storeid-customdomain",
+    "doc_title": "",
+    "doc_platform": "ReadMe",
+    "discovery_source": "commoncrawl-domain(free)"
+  },
+  {
+    "product": "activecampaign",
+    "vendor_host": "activecampaign.com",
+    "doc_url": "https://help.activecampaign.com/hc/en-us/articles/207331210-How-do-I-set-up-a-custom-domain-name-CNAME-in-ActiveCampaign",
+    "doc_title": "How do I set up a custom domain name (CNAME) in ...",
+    "doc_platform": "Zendesk",
+    "discovery_source": "serp"
+  },
+  {
+    "product": "adobe",
+    "vendor_host": "adobe.com",
+    "doc_url": "https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/custom-domain-names/add-custom-domain-name",
+    "doc_title": "Add a Custom Domain Name | Adobe Experience Manager",
+    "doc_platform": "",
+    "discovery_source": "serp"
+  },
+  {
+    "product": "alphavima",
+    "vendor_host": "alphavima.com",
+    "doc_url": "https://alphavima.com/blog/power-pages-custom-domain-setup/",
+    "doc_title": "Set Up Custom Domain & SSL in Power Pages ...",
+    "doc_platform": "",
+    "discovery_source": "serp"
+  },
+  {
+    "product": "amazon",
+    "vendor_host": "amazon.com",
+    "doc_url": "https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/CNAMEs.html",
+    "doc_title": "Use custom URLs by adding alternate domain names ...",
+    "doc_platform": "",
+    "discovery_source": "serp"
+  },
+  {
+    "product": "appointmatic",
+    "vendor_host": "freshdesk.com",
+    "doc_url": "https://appointmatic.freshdesk.com/support/solutions/articles/80000963112-how-to-connect-your-domain-to-a-funnel-website",
+    "doc_title": "",
+    "doc_platform": "Freshdesk",
+    "discovery_source": "commoncrawl-domain(free)"
+  },
+  {
+    "product": "art-storefronts",
+    "vendor_host": "intercom.help",
+    "doc_url": "https://intercom.help/art-storefronts/en/articles/9116772-using-your-custom-email-address-from-your-custom-domain",
+    "doc_title": "",
+    "doc_platform": "Intercom",
+    "discovery_source": "commoncrawl-domain(free)"
+  },
+  {
+    "product": "art-storefronts",
+    "vendor_host": "intercom.help",
+    "doc_url": "https://intercom.help/art-storefronts/en/articles/9116776-custom-domains-form",
+    "doc_title": "",
+    "doc_platform": "Intercom",
+    "discovery_source": "commoncrawl-domain(free)"
+  },
+  {
+    "product": "art-storefronts",
+    "vendor_host": "intercom.help",
+    "doc_url": "https://intercom.help/art-storefronts/en/collections/8942260-custom-domain-set-up",
+    "doc_title": "",
+    "doc_platform": "Intercom",
+    "discovery_source": "commoncrawl-domain(free)"
+  },
+  {
+    "product": "auth0",
+    "vendor_host": "auth0.com",
+    "doc_url": "https://auth0.com/docs/customize/custom-domains/self-managed-certificates",
+    "doc_title": "Configure Custom Domains with Self-Managed Certificates",
+    "doc_platform": "",
+    "discovery_source": "serp"
+  },
+  {
+    "product": "buildwithfern",
+    "vendor_host": "buildwithfern.com",
+    "doc_url": "https://buildwithfern.com/learn/dashboard/configuration/custom-domains",
+    "doc_title": "Set up a custom domain | Fern Documentation",
+    "doc_platform": "",
+    "discovery_source": "serp"
+  },
+  {
+    "product": "cloud",
+    "vendor_host": "cloud.gov",
+    "doc_url": "https://docs.cloud.gov/pages/using-pages/custom-domains/",
+    "doc_title": "Custom Domains",
+    "doc_platform": "",
+    "discovery_source": "serp"
+  },
+  {
+    "product": "cloud",
+    "vendor_host": "cloud.gov",
+    "doc_url": "https://docs.cloud.gov/platform/management/custom-domains/",
+    "doc_title": "",
+    "doc_platform": "",
+    "discovery_source": "sitemap(free)"
+  },
+  {
+    "product": "cloudcone-api",
+    "vendor_host": "readme.io",
+    "doc_url": "https://cloudcone-api.readme.io/reference/add-domain",
+    "doc_title": "",
+    "doc_platform": "ReadMe",
+    "discovery_source": "commoncrawl-domain(free)"
+  },
+  {
+    "product": "cloudflare",
+    "vendor_host": "cloudflare.com",
+    "doc_url": "https://developers.cloudflare.com/ai-gateway/configuration/custom-domains/",
+    "doc_title": "",
+    "doc_platform": "",
+    "discovery_source": "sitemap(free)"
+  },
+  {
+    "product": "cloudflare",
+    "vendor_host": "cloudflare.com",
+    "doc_url": "https://developers.cloudflare.com/ai-search/configuration/retrieval/public-endpoint/custom-domains/",
+    "doc_title": "",
+    "doc_platform": "",
+    "discovery_source": "sitemap(free)"
+  },
+  {
+    "product": "cloudflare",
+    "vendor_host": "cloudflare.com",
+    "doc_url": "https://developers.cloudflare.com/automatic-platform-optimization/get-started/change-nameservers/",
+    "doc_title": "",
+    "doc_platform": "",
+    "discovery_source": "sitemap(free)"
+  },
+  {
+    "product": "cloudflare",
+    "vendor_host": "cloudflare.com",
+    "doc_url": "https://developers.cloudflare.com/changelog/post/2026-05-06-radar-tld-nameserver-performance/",
+    "doc_title": "",
+    "doc_platform": "",
+    "discovery_source": "sitemap(free)"
+  },
+  {
+    "product": "cloudflare",
+    "vendor_host": "cloudflare.com",
+    "doc_url": "https://developers.cloudflare.com/changelog/post/2026-08-06-public-endpoint-custom-domains-and-namespaces/",
+    "doc_title": "",
+    "doc_platform": "",
+    "discovery_source": "sitemap(free)"
+  },
+  {
+    "product": "cloudflare",
+    "vendor_host": "cloudflare.com",
+    "doc_url": "https://developers.cloudflare.com/cloudflare-one/email-security/setup/post-delivery-deployment/bcc-journaling/bcc-setup/gmail-bcc-setup/connect-domains/",
+    "doc_title": "",
+    "doc_platform": "",
+    "discovery_source": "sitemap(free)"
+  },
+  {
+    "product": "cloudflare",
+    "vendor_host": "cloudflare.com",
+    "doc_url": "https://developers.cloudflare.com/dns/cname-flattening/",
+    "doc_title": "",
+    "doc_platform": "",
+    "discovery_source": "sitemap(free)"
+  },
+  {
+    "product": "cloudflare",
+    "vendor_host": "cloudflare.com",
+    "doc_url": "https://developers.cloudflare.com/dns/cname-flattening/cname-flattening-diagram/",
+    "doc_title": "",
+    "doc_platform": "",
+    "discovery_source": "sitemap(free)"
+  },
+  {
+    "product": "cloudflare",
+    "vendor_host": "cloudflare.com",
+    "doc_url": "https://developers.cloudflare.com/dns/cname-flattening/set-up-cname-flattening/",
+    "doc_title": "",
+    "doc_platform": "",
+    "discovery_source": "sitemap(free)"
+  },
+  {
+    "product": "cloudflare",
+    "vendor_host": "cloudflare.com",
+    "doc_url": "https://developers.cloudflare.com/dns/foundation-dns/advanced-nameservers/",
+    "doc_title": "",
+    "doc_platform": "",
+    "discovery_source": "sitemap(free)"
+  },
+  {
+    "product": "cloudflare",
+    "vendor_host": "cloudflare.com",
+    "doc_url": "https://developers.cloudflare.com/dns/manage-dns-records/troubleshooting/cname-domain-verification/",
+    "doc_title": "",
+    "doc_platform": "",
+    "discovery_source": "sitemap(free)"
+  },
+  {
+    "product": "cloudflare",
+    "vendor_host": "cloudflare.com",
+    "doc_url": "https://developers.cloudflare.com/dns/nameservers/",
+    "doc_title": "",
+    "doc_platform": "",
+    "discovery_source": "sitemap(free)"
+  },
+  {
+    "product": "cloudflare",
+    "vendor_host": "cloudflare.com",
+    "doc_url": "https://developers.cloudflare.com/dns/nameservers/custom-nameservers/",
+    "doc_title": "",
+    "doc_platform": "",
+    "discovery_source": "sitemap(free)"
+  },
+  {
+    "product": "cloudflare",
+    "vendor_host": "cloudflare.com",
+    "doc_url": "https://developers.cloudflare.com/dns/nameservers/custom-nameservers/account-custom-nameservers/",
+    "doc_title": "",
+    "doc_platform": "",
+    "discovery_source": "sitemap(free)"
+  },
+  {
+    "product": "cloudflare",
+    "vendor_host": "cloudflare.com",
+    "doc_url": "https://developers.cloudflare.com/dns/nameservers/custom-nameservers/tenant-custom-nameservers/",
+    "doc_title": "",
+    "doc_platform": "",
+    "discovery_source": "sitemap(free)"
+  },
+  {
+    "product": "cloudflare",
+    "vendor_host": "cloudflare.com",
+    "doc_url": "https://developers.cloudflare.com/dns/nameservers/custom-nameservers/zone-custom-nameservers/",
+    "doc_title": "",
+    "doc_platform": "",
+    "discovery_source": "sitemap(free)"
+  },
+  {
+    "product": "cloudflare",
+    "vendor_host": "cloudflare.com",
+    "doc_url": "https://developers.cloudflare.com/dns/nameservers/nameserver-options/",
+    "doc_title": "",
+    "doc_platform": "",
+    "discovery_source": "sitemap(free)"
+  },
+  {
+    "product": "cloudflare",
+    "vendor_host": "cloudflare.com",
+    "doc_url": "https://developers.cloudflare.com/dns/nameservers/update-nameservers/",
+    "doc_title": "",
+    "doc_platform": "",
+    "discovery_source": "sitemap(free)"
+  },
+  {
+    "product": "cloudflare",
+    "vendor_host": "cloudflare.com",
+    "doc_url": "https://developers.cloudflare.com/dns/zone-setups/troubleshooting/cannot-add-domain/",
+    "doc_title": "",
+    "doc_platform": "",
+    "discovery_source": "sitemap(free)"
+  },
+  {
+    "product": "cloudflare",
+    "vendor_host": "cloudflare.com",
+    "doc_url": "https://developers.cloudflare.com/dns/zone-setups/troubleshooting/pending-nameservers/",
+    "doc_title": "",
+    "doc_platform": "",
+    "discovery_source": "sitemap(free)"
+  },
+  {
+    "product": "cloudflare",
+    "vendor_host": "cloudflare.com",
+    "doc_url": "https://developers.cloudflare.com/images/optimization/hosted-images/serve-from-custom-domains/",
+    "doc_title": "",
+    "doc_platform": "",
+    "discovery_source": "sitemap(free)"
+  },
+  {
+    "product": "cloudflare",
+    "vendor_host": "cloudflare.com",
+    "doc_url": "https://developers.cloudflare.com/load-balancing/additional-options/cname-flattening/",
+    "doc_title": "",
+    "doc_platform": "",
+    "discovery_source": "sitemap(free)"
+  },
+  {
+    "product": "cloudflare",
+    "vendor_host": "cloudflare.com",
+    "doc_url": "https://developers.cloudflare.com/pages/configuration/custom-domains/",
+    "doc_title": "",
+    "doc_platform": "",
+    "discovery_source": "sitemap(free)"
+  },
+  {
+    "product": "cloudflare",
+    "vendor_host": "cloudflare.com",
+    "doc_url": "https://developers.cloudflare.com/pages/how-to/redirect-to-custom-domain/",
+    "doc_title": "",
+    "doc_platform": "",
+    "discovery_source": "sitemap(free)"
+  },
+  {
+    "product": "cloudflare",
+    "vendor_host": "cloudflare.com",
+    "doc_url": "https://developers.cloudflare.com/realtime/turn/custom-domains/",
+    "doc_title": "",
+    "doc_platform": "",
+    "discovery_source": "sitemap(free)"
+  },
+  {
+    "product": "cloudflare",
+    "vendor_host": "cloudflare.com",
+    "doc_url": "https://developers.cloudflare.com/registrar/custom-domain-protection/",
+    "doc_title": "",
+    "doc_platform": "",
+    "discovery_source": "sitemap(free)"
+  },
+  {
+    "product": "cloudflare",
+    "vendor_host": "cloudflare.com",
+    "doc_url": "https://developers.cloudflare.com/rules/origin-rules/tutorials/point-to-pages-with-custom-domain/",
+    "doc_title": "",
+    "doc_platform": "",
+    "discovery_source": "sitemap(free)"
+  },
+  {
+    "product": "cloudflare",
+    "vendor_host": "cloudflare.com",
+    "doc_url": "https://developers.cloudflare.com/rules/origin-rules/tutorials/point-to-r2-bucket-with-custom-domain/",
+    "doc_title": "",
+    "doc_platform": "",
+    "discovery_source": "sitemap(free)"
+  },
+  {
+    "product": "cloudflare",
+    "vendor_host": "cloudflare.com",
+    "doc_url": "https://developers.cloudflare.com/sandbox/guides/preview-urls-custom-domain/",
+    "doc_title": "",
+    "doc_platform": "",
+    "discovery_source": "sitemap(free)"
+  },
+  {
+    "product": "cloudflare",
+    "vendor_host": "cloudflare.com",
+    "doc_url": "https://developers.cloudflare.com/stream/stream-live/custom-domains/",
+    "doc_title": "",
+    "doc_platform": "",
+    "discovery_source": "sitemap(free)"
+  },
+  {
+    "product": "cloudflare",
+    "vendor_host": "cloudflare.com",
+    "doc_url": "https://developers.cloudflare.com/use-cases/saas/custom-domains/",
+    "doc_title": "",
+    "doc_platform": "",
+    "discovery_source": "sitemap(free)"
+  },
+  {
+    "product": "cloudflare",
+    "vendor_host": "cloudflare.com",
+    "doc_url": "https://developers.cloudflare.com/workers/configuration/routing/custom-domains/",
+    "doc_title": "",
+    "doc_platform": "",
+    "discovery_source": "sitemap(free)"
+  },
+  {
+    "product": "davidmuraya",
+    "vendor_host": "davidmuraya.com",
+    "doc_url": "https://davidmuraya.com/blog/custom-domain-google-cloud-run/",
+    "doc_title": "How to Set Up a Custom Domain for Your Google Cloud Run ...",
+    "doc_platform": "",
+    "discovery_source": "serp"
+  },
+  {
+    "product": "davidmuraya",
+    "vendor_host": "davidmuraya.com",
+    "doc_url": "https://davidmuraya.com/blog/tags/custom-domain/",
+    "doc_title": "",
+    "doc_platform": "",
+    "discovery_source": "sitemap(free)"
+  },
+  {
+    "product": "descope",
+    "vendor_host": "descope.com",
+    "doc_url": "https://docs.descope.com/how-to-deploy-to-production/custom-domain",
+    "doc_title": "Configuring Custom Domain with CNAME",
+    "doc_platform": "",
+    "discovery_source": "serp"
+  },
+  {
+    "product": "dorway-ltd",
+    "vendor_host": "intercom.help",
+    "doc_url": "https://intercom.help/dorway-ltd/en/articles/8625265-how-do-i-get-a-custom-domain-login-for-my-organisation",
+    "doc_title": "",
+    "doc_platform": "Intercom",
+    "discovery_source": "commoncrawl-domain(free)"
+  },
+  {
+    "product": "dynalinks",
+    "vendor_host": "readme.io",
+    "doc_url": "https://dynalinks.readme.io/reference/get_projects-id-verify-custom-domain",
+    "doc_title": "",
+    "doc_platform": "ReadMe",
+    "discovery_source": "commoncrawl-domain(free)"
+  },
+  {
+    "product": "emailpref",
+    "vendor_host": "gitbook.io",
+    "doc_url": "https://emailpref.gitbook.io/emailpref-documentation/general/setup-custom-domain",
+    "doc_title": "",
+    "doc_platform": "GitBook",
+    "discovery_source": "commoncrawl-domain(free)"
+  },
+  {
+    "product": "exabytes",
+    "vendor_host": "freshdesk.com",
+    "doc_url": "https://exabytes.freshdesk.com/en/support/solutions/articles/14000031330-update-domain-nameservers-via-client-area",
+    "doc_title": "",
+    "doc_platform": "Freshdesk",
+    "discovery_source": "commoncrawl-domain(free)"
+  },
+  {
+    "product": "froiden",
+    "vendor_host": "freshdesk.com",
+    "doc_url": "https://froiden.freshdesk.com/support/solutions/articles/43000717482-custom-domain-setup-for-customer",
+    "doc_title": "",
+    "doc_platform": "Freshdesk",
+    "discovery_source": "commoncrawl-domain(free)"
+  },
+  {
+    "product": "froiden",
+    "vendor_host": "freshdesk.com",
+    "doc_url": "https://froiden.freshdesk.com/support/solutions/articles/43000783091-custom-domain-setup-for-super-admin",
+    "doc_title": "",
+    "doc_platform": "Freshdesk",
+    "discovery_source": "commoncrawl-domain(free)"
+  },
+  {
+    "product": "froiden",
+    "vendor_host": "freshdesk.com",
+    "doc_url": "https://froiden.freshdesk.com/support/solutions/articles/43000783092-custom-domain-setup-for-customer",
+    "doc_title": "",
+    "doc_platform": "Freshdesk",
+    "discovery_source": "commoncrawl-domain(free)"
+  },
+  {
+    "product": "gohighlevelassist",
+    "vendor_host": "freshdesk.com",
+    "doc_url": "https://gohighlevelassist.freshdesk.com/support/solutions/articles/155000002547-how-to-add-domains-in-the-wordpress-dashboard",
+    "doc_title": "",
+    "doc_platform": "Freshdesk",
+    "discovery_source": "commoncrawl-domain(free)"
+  },
+  {
+    "product": "gohighlevelassist",
+    "vendor_host": "freshdesk.com",
+    "doc_url": "https://gohighlevelassist.freshdesk.com/support/solutions/articles/48001185852-facebook-domain-verification-by-meta-tag",
+    "doc_title": "",
+    "doc_platform": "Freshdesk",
+    "discovery_source": "commoncrawl-domain(free)"
+  },
+  {
+    "product": "google",
+    "vendor_host": "google.com",
+    "doc_url": "https://docs.cloud.google.com/appengine/docs/flexible/securing-custom-domains-with-ssl",
+    "doc_title": "Secure custom domains with SSL | App Engine flexible ...",
+    "doc_platform": "",
+    "discovery_source": "serp"
+  },
+  {
+    "product": "google",
+    "vendor_host": "google.com",
+    "doc_url": "https://firebase.google.com/docs/hosting/custom-domain",
+    "doc_title": "Connect a custom domain | Firebase Hosting - Google",
+    "doc_platform": "",
+    "discovery_source": "serp"
+  },
+  {
+    "product": "google",
+    "vendor_host": "google.com",
+    "doc_url": "https://groups.google.com/g/google-appengine/c/FfDF_NwSPqQ",
+    "doc_title": "Redirected custom domain from Google does not show in ...",
+    "doc_platform": "",
+    "discovery_source": "serp"
+  },
+  {
+    "product": "google",
+    "vendor_host": "google.com",
+    "doc_url": "https://groups.google.com/g/google-appengine/c/xpGrF9lYwmM/m/FQ4VNtf73zoJ",
+    "doc_title": "What CNAME do I set?",
+    "doc_platform": "",
+    "discovery_source": "serp"
+  },
+  {
+    "product": "google",
+    "vendor_host": "google.com",
+    "doc_url": "https://www.google.com/goto?url=CAESYwHuR6pNa2te5g6bRDgb5AnDSAdsb1jgdbnKbsVFOIB50gqs-iM8seoWuu7KSeBc4VM4f5zAKHgPfR5eH8kEPu24hnNGWClMB_NPc3rL2La2AZ90pXD--lSnDIxveWPV5xHpjQ==",
+    "doc_title": "How to Verify Custom Domain on Google Search Central ...",
+    "doc_platform": "",
+    "discovery_source": "serp"
+  },
+  {
+    "product": "helpscout",
+    "vendor_host": "helpscout.com",
+    "doc_url": "https://docs.helpscout.com/article/1400-create-cname-records-at-cloudflare-to-work-with-help-scout",
+    "doc_title": "",
+    "doc_platform": "",
+    "discovery_source": "sitemap(free)"
+  },
+  {
+    "product": "helpscout",
+    "vendor_host": "helpscout.com",
+    "doc_url": "https://docs.helpscout.com/article/42-use-your-own-custom-domain-with-docs",
+    "doc_title": "Use Your Own Custom Domain With Docs",
+    "doc_platform": "HelpScout",
+    "discovery_source": "serp"
+  },
+  {
+    "product": "heroku",
+    "vendor_host": "heroku.com",
+    "doc_url": "https://devcenter.heroku.com/articles/apex-domains",
+    "doc_title": "",
+    "doc_platform": "",
+    "discovery_source": "sitemap(free)"
+  },
+  {
+    "product": "heroku",
+    "vendor_host": "heroku.com",
+    "doc_url": "https://devcenter.heroku.com/articles/custom-domains",
+    "doc_title": "Custom Domain Names for Apps",
+    "doc_platform": "",
+    "discovery_source": "serp"
+  },
+  {
+    "product": "iwantempire",
+    "vendor_host": "freshdesk.com",
+    "doc_url": "https://iwantempire.freshdesk.com/support/solutions/articles/44001685982-vanity-domains",
+    "doc_title": "",
+    "doc_platform": "Freshdesk",
+    "discovery_source": "commoncrawl-domain(free)"
+  },
+  {
+    "product": "jetico",
+    "vendor_host": "freshdesk.com",
+    "doc_url": "https://jetico.freshdesk.com/support/solutions/articles/19000130946-how-to-add-domain-users-to-protection-policy",
+    "doc_title": "",
+    "doc_platform": "Freshdesk",
+    "discovery_source": "commoncrawl-domain(free)"
+  },
+  {
+    "product": "kajabi",
+    "vendor_host": "kajabi.com",
+    "doc_url": "https://help.kajabi.com/articles/marketing/email-campaigns/why-are-my-emails-not-sending-or-receiving-after-i-connect-my-custom-domain",
+    "doc_title": "",
+    "doc_platform": "",
+    "discovery_source": "sitemap(free)"
+  },
+  {
+    "product": "kajabi",
+    "vendor_host": "kajabi.com",
+    "doc_url": "https://help.kajabi.com/articles/website/domains/connect-a-custom-domain",
+    "doc_title": "Connect a custom domain",
+    "doc_platform": "",
+    "discovery_source": "serp"
+  },
+  {
+    "product": "kajabi",
+    "vendor_host": "kajabi.com",
+    "doc_url": "https://help.kajabi.com/articles/website/domains/disconnect-your-custom-domain",
+    "doc_title": "",
+    "doc_platform": "",
+    "discovery_source": "sitemap(free)"
+  },
+  {
+    "product": "kajabi",
+    "vendor_host": "kajabi.com",
+    "doc_url": "https://help.kajabi.com/articles/website/domains/how-can-i-connect-my-custom-domain-to-kajabi-using-nameservers",
+    "doc_title": "",
+    "doc_platform": "",
+    "discovery_source": "sitemap(free)"
+  },
+  {
+    "product": "kajabi",
+    "vendor_host": "kajabi.com",
+    "doc_url": "https://help.kajabi.com/articles/website/domains/how-to-set-up-a-forwarding-rule-for-your-custom-domain-on-bluehost",
+    "doc_title": "",
+    "doc_platform": "",
+    "discovery_source": "sitemap(free)"
+  },
+  {
+    "product": "kajabi",
+    "vendor_host": "kajabi.com",
+    "doc_url": "https://help.kajabi.com/articles/website/domains/how-to-set-up-a-forwarding-rule-for-your-custom-domain-on-godaddy",
+    "doc_title": "",
+    "doc_platform": "",
+    "discovery_source": "sitemap(free)"
+  },
+  {
+    "product": "kajabi",
+    "vendor_host": "kajabi.com",
+    "doc_url": "https://help.kajabi.com/articles/website/domains/how-to-verify-your-custom-domain-on-kajabi-for-google-workspace",
+    "doc_title": "",
+    "doc_platform": "",
+    "discovery_source": "sitemap(free)"
+  },
+  {
+    "product": "kajabi",
+    "vendor_host": "kajabi.com",
+    "doc_url": "https://help.kajabi.com/articles/website/domains/kajabi-default-subdomain-vs-custom-domain",
+    "doc_title": "",
+    "doc_platform": "",
+    "discovery_source": "sitemap(free)"
+  },
+  {
+    "product": "kajabi",
+    "vendor_host": "kajabi.com",
+    "doc_url": "https://help.kajabi.com/articles/website/domains/troubleshooting-custom-domain-issues",
+    "doc_title": "",
+    "doc_platform": "",
+    "discovery_source": "sitemap(free)"
+  },
+  {
+    "product": "kajabi",
+    "vendor_host": "kajabi.com",
+    "doc_url": "https://help.kajabi.com/connect-a-custom-domain-to-kajabi",
+    "doc_title": "",
+    "doc_platform": "",
+    "discovery_source": "sitemap(free)"
+  },
+  {
+    "product": "lovable",
+    "vendor_host": "lovable.dev",
+    "doc_url": "https://docs.lovable.dev/features/custom-domain",
+    "doc_title": "Set up a custom domain",
+    "doc_platform": "",
+    "discovery_source": "serp"
+  },
+  {
+    "product": "manageengine",
+    "vendor_host": "manageengine.com",
+    "doc_url": "https://www.manageengine.com/appcreator/help/app-settings/verify-custom-domain.html",
+    "doc_title": "Verify Custom Domain of the Customer Portal",
+    "doc_platform": "",
+    "discovery_source": "serp"
+  },
+  {
+    "product": "microsoft",
+    "vendor_host": "microsoft.com",
+    "doc_url": "https://learn.microsoft.com/en-us/azure/app-service/app-service-web-tutorial-custom-domain",
+    "doc_title": "Set up an existing custom domain in Azure App Service",
+    "doc_platform": "",
+    "discovery_source": "serp"
+  },
+  {
+    "product": "microsoft",
+    "vendor_host": "microsoft.com",
+    "doc_url": "https://learn.microsoft.com/en-us/microsoft-365/admin/setup/add-domain?view=o365-worldwide",
+    "doc_title": "Add a Custom Domain to Microsoft 365",
+    "doc_platform": "",
+    "discovery_source": "serp"
+  },
+  {
+    "product": "mini-course-generator",
+    "vendor_host": "intercom.help",
+    "doc_url": "https://intercom.help/mini-course-generator/en/articles/7864258-customizing-links-with-custom-domain-cname",
+    "doc_title": "",
+    "doc_platform": "Intercom",
+    "discovery_source": "commoncrawl-domain(free)"
+  },
+  {
+    "product": "moonback",
+    "vendor_host": "readme.io",
+    "doc_url": "https://moonback.readme.io/reference/your-own-domain-name",
+    "doc_title": "",
+    "doc_platform": "ReadMe",
+    "discovery_source": "commoncrawl-domain(free)"
+  },
+  {
+    "product": "mux",
+    "vendor_host": "mux.com",
+    "doc_url": "https://www.mux.com/blog/introducing-custom-domains",
+    "doc_title": "",
+    "doc_platform": "",
+    "discovery_source": "sitemap(free)"
+  },
+  {
+    "product": "mux",
+    "vendor_host": "mux.com",
+    "doc_url": "https://www.mux.com/docs/changelog/custom-domains-for-mux-video-now-in-beta",
+    "doc_title": "",
+    "doc_platform": "",
+    "discovery_source": "sitemap(free)"
+  },
+  {
+    "product": "mux",
+    "vendor_host": "mux.com",
+    "doc_url": "https://www.mux.com/docs/changelog/custom-domains-mux-video-GA",
+    "doc_title": "",
+    "doc_platform": "",
+    "discovery_source": "sitemap(free)"
+  },
+  {
+    "product": "mux",
+    "vendor_host": "mux.com",
+    "doc_url": "https://www.mux.com/docs/guides/integrate-a-data-custom-domain",
+    "doc_title": "",
+    "doc_platform": "",
+    "discovery_source": "sitemap(free)"
+  },
+  {
+    "product": "mux",
+    "vendor_host": "mux.com",
+    "doc_url": "https://www.mux.com/docs/guides/use-a-custom-domain-for-streaming",
+    "doc_title": "Use your own custom domain",
+    "doc_platform": "",
+    "discovery_source": "serp"
+  },
+  {
+    "product": "ngrok",
+    "vendor_host": "ngrok.com",
+    "doc_url": "https://ngrok.com/docs/domains/custom-domains",
+    "doc_title": "How to Use A Custom Domain",
+    "doc_platform": "",
+    "discovery_source": "serp"
+  },
+  {
+    "product": "ngrok",
+    "vendor_host": "ngrok.com",
+    "doc_url": "https://ngrok.com/docs/gateway/domains/custom-domains",
+    "doc_title": "",
+    "doc_platform": "",
+    "discovery_source": "sitemap(free)"
+  },
+  {
+    "product": "ngrok",
+    "vendor_host": "ngrok.com",
+    "doc_url": "https://ngrok.com/docs/gateway/k8s/guides/custom-domain",
+    "doc_title": "",
+    "doc_platform": "",
+    "discovery_source": "sitemap(free)"
+  },
+  {
+    "product": "okta",
+    "vendor_host": "okta.com",
+    "doc_url": "https://support.okta.com/help/s/question/0D54z00009NKDaNCAX/setting-up-a-custom-domain-branding?language=en_US",
+    "doc_title": "Setting up a Custom Domain - Branding",
+    "doc_platform": "",
+    "discovery_source": "serp"
+  },
+  {
+    "product": "onwhatsapp",
+    "vendor_host": "gitbook.io",
+    "doc_url": "https://onwhatsapp.gitbook.io/quick-start/your-own-domain",
+    "doc_title": "",
+    "doc_platform": "GitBook",
+    "discovery_source": "commoncrawl-domain(free)"
+  },
+  {
+    "product": "pages",
+    "vendor_host": "pages.dev",
+    "doc_url": "https://cloudflare-docs-7ou.pages.dev/pages/configuration/custom-domains/",
+    "doc_title": "Custom domains \u00b7 Cloudflare Pages docs",
+    "doc_platform": "",
+    "discovery_source": "serp"
+  },
+  {
+    "product": "portfoliobox",
+    "vendor_host": "portfoliobox.com",
+    "doc_url": "https://www.portfoliobox.com/documentation/connect-your-custom-domain-to-your-portfoliobox-site",
+    "doc_title": "Connect a custom domain \u2013 Documentation",
+    "doc_platform": "",
+    "discovery_source": "serp"
+  },
+  {
+    "product": "portfoliobox",
+    "vendor_host": "portfoliobox.com",
+    "doc_url": "https://www.portfoliobox.com/magazine/setting-up-a-custom-domain-with-portfoliobox",
+    "doc_title": "",
+    "doc_platform": "",
+    "discovery_source": "sitemap(free)"
+  },
+  {
+    "product": "reddit",
+    "vendor_host": "reddit.com",
+    "doc_url": "https://www.reddit.com/r/AZURE/comments/1kor4oa/struggling_with_custom_domain_verification/",
+    "doc_title": "Struggling with Custom Domain Verification : r/AZURE",
+    "doc_platform": "",
+    "discovery_source": "serp"
+  },
+  {
+    "product": "render",
+    "vendor_host": "render.com",
+    "doc_url": "https://render.com/docs/custom-domains",
+    "doc_title": "Custom Domains on Render",
+    "doc_platform": "",
+    "discovery_source": "serp"
+  },
+  {
+    "product": "replit",
+    "vendor_host": "replit.com",
+    "doc_url": "https://docs.replit.com/build/add-custom-domain",
+    "doc_title": "",
+    "doc_platform": "",
+    "discovery_source": "sitemap(free)"
+  },
+  {
+    "product": "replit",
+    "vendor_host": "replit.com",
+    "doc_url": "https://docs.replit.com/features/publishing/custom-domains",
+    "doc_title": "Custom Domains",
+    "doc_platform": "",
+    "discovery_source": "serp"
+  },
+  {
+    "product": "replit",
+    "vendor_host": "replit.com",
+    "doc_url": "https://docs.replit.com/fr/build/add-custom-domain",
+    "doc_title": "",
+    "doc_platform": "",
+    "discovery_source": "sitemap(free)"
+  },
+  {
+    "product": "replit",
+    "vendor_host": "replit.com",
+    "doc_url": "https://docs.replit.com/fr/cloud-services/deployments/custom-domains",
+    "doc_title": "",
+    "doc_platform": "",
+    "discovery_source": "sitemap(free)"
+  },
+  {
+    "product": "replit",
+    "vendor_host": "replit.com",
+    "doc_url": "https://docs.replit.com/fr/features/publishing/custom-domains",
+    "doc_title": "",
+    "doc_platform": "",
+    "discovery_source": "sitemap(free)"
+  },
+  {
+    "product": "replit",
+    "vendor_host": "replit.com",
+    "doc_url": "https://docs.replit.com/fr/help/custom-domains-and-dns",
+    "doc_title": "",
+    "doc_platform": "",
+    "discovery_source": "sitemap(free)"
+  },
+  {
+    "product": "replit",
+    "vendor_host": "replit.com",
+    "doc_url": "https://docs.replit.com/help/custom-domains-and-dns",
+    "doc_title": "",
+    "doc_platform": "",
+    "discovery_source": "sitemap(free)"
+  },
+  {
+    "product": "replit",
+    "vendor_host": "replit.com",
+    "doc_url": "https://docs.replit.com/ja/build/add-custom-domain",
+    "doc_title": "",
+    "doc_platform": "",
+    "discovery_source": "sitemap(free)"
+  },
+  {
+    "product": "replit",
+    "vendor_host": "replit.com",
+    "doc_url": "https://docs.replit.com/ja/features/publishing/custom-domains",
+    "doc_title": "",
+    "doc_platform": "",
+    "discovery_source": "sitemap(free)"
+  },
+  {
+    "product": "replit",
+    "vendor_host": "replit.com",
+    "doc_url": "https://docs.replit.com/ja/help/custom-domains-and-dns",
+    "doc_title": "",
+    "doc_platform": "",
+    "discovery_source": "sitemap(free)"
+  },
+  {
+    "product": "replit",
+    "vendor_host": "replit.com",
+    "doc_url": "https://docs.replit.com/ko/build/add-custom-domain",
+    "doc_title": "",
+    "doc_platform": "",
+    "discovery_source": "sitemap(free)"
+  },
+  {
+    "product": "replit",
+    "vendor_host": "replit.com",
+    "doc_url": "https://docs.replit.com/ko/features/publishing/custom-domains",
+    "doc_title": "",
+    "doc_platform": "",
+    "discovery_source": "sitemap(free)"
+  },
+  {
+    "product": "replit",
+    "vendor_host": "replit.com",
+    "doc_url": "https://docs.replit.com/ko/help/custom-domains-and-dns",
+    "doc_title": "",
+    "doc_platform": "",
+    "discovery_source": "sitemap(free)"
+  },
+  {
+    "product": "replit",
+    "vendor_host": "replit.com",
+    "doc_url": "https://docs.replit.com/pt/build/add-custom-domain",
+    "doc_title": "",
+    "doc_platform": "",
+    "discovery_source": "sitemap(free)"
+  },
+  {
+    "product": "replit",
+    "vendor_host": "replit.com",
+    "doc_url": "https://docs.replit.com/pt/cloud-services/deployments/custom-domains",
+    "doc_title": "",
+    "doc_platform": "",
+    "discovery_source": "sitemap(free)"
+  },
+  {
+    "product": "replit",
+    "vendor_host": "replit.com",
+    "doc_url": "https://docs.replit.com/pt/features/publishing/custom-domains",
+    "doc_title": "",
+    "doc_platform": "",
+    "discovery_source": "sitemap(free)"
+  },
+  {
+    "product": "replit",
+    "vendor_host": "replit.com",
+    "doc_url": "https://docs.replit.com/pt/help/custom-domains-and-dns",
+    "doc_title": "",
+    "doc_platform": "",
+    "discovery_source": "sitemap(free)"
+  },
+  {
+    "product": "sidxparab",
+    "vendor_host": "gitbook.io",
+    "doc_url": "https://sidxparab.gitbook.io/subdomain-enumeration-guide/active-enumeration/tls-csp-cname",
+    "doc_title": "",
+    "doc_platform": "GitBook",
+    "discovery_source": "commoncrawl-domain(free)"
+  },
+  {
+    "product": "simplybiz",
+    "vendor_host": "zendesk.com",
+    "doc_url": "https://simplybiz.zendesk.com/hc/en-us/articles/33190876886673-6-reasons-why-your-business-needs-a-custom-domain-name",
+    "doc_title": "",
+    "doc_platform": "Zendesk",
+    "discovery_source": "commoncrawl-domain(free)"
+  },
+  {
+    "product": "spacecore",
+    "vendor_host": "gitbook.io",
+    "doc_url": "https://spacecore.gitbook.io/wiki/en/network-and-security-configuration/how-to-connect-domain",
+    "doc_title": "",
+    "doc_platform": "GitBook",
+    "discovery_source": "commoncrawl-domain(free)"
+  },
+  {
+    "product": "spri",
+    "vendor_host": "spri.ng",
+    "doc_url": "https://www.spri.ng/creator-resources/connecting-a-custom-domain",
+    "doc_title": "Connecting a custom domain",
+    "doc_platform": "",
+    "discovery_source": "serp"
+  },
+  {
+    "product": "squareup",
+    "vendor_host": "squareup.com",
+    "doc_url": "https://squareup.com/help/us/en/article/6916-connect-your-domain-with-square-online-store",
+    "doc_title": "Connect a custom domain to your Square Online site",
+    "doc_platform": "",
+    "discovery_source": "serp"
+  },
+  {
+    "product": "stape",
+    "vendor_host": "stape.io",
+    "doc_url": "https://stape.io/blog/dns-configuration-for-custom-domain",
+    "doc_title": "DNS configuration for custom domain [Server-side tracking]",
+    "doc_platform": "",
+    "discovery_source": "serp"
+  },
+  {
+    "product": "stape",
+    "vendor_host": "stape.io",
+    "doc_url": "https://stape.io/blog/how-to-add-a-custom-domain-to-the-google-tag-manager-server-container",
+    "doc_title": "",
+    "doc_platform": "",
+    "discovery_source": "sitemap(free)"
+  },
+  {
+    "product": "stape",
+    "vendor_host": "stape.io",
+    "doc_url": "https://stape.io/blog/use-facebook-events-cannot-verify-domain",
+    "doc_title": "",
+    "doc_platform": "",
+    "discovery_source": "sitemap(free)"
+  },
+  {
+    "product": "stape",
+    "vendor_host": "stape.io",
+    "doc_url": "https://stape.io/helpdesk/documentation/add-custom-domain-in-stape",
+    "doc_title": "",
+    "doc_platform": "",
+    "discovery_source": "sitemap(free)"
+  },
+  {
+    "product": "stape",
+    "vendor_host": "stape.io",
+    "doc_url": "https://stape.io/helpdesk/documentation/custom-domain-options-for-sgtm",
+    "doc_title": "",
+    "doc_platform": "",
+    "discovery_source": "sitemap(free)"
+  },
+  {
+    "product": "stape",
+    "vendor_host": "stape.io",
+    "doc_url": "https://stape.io/helpdesk/knowledgebase/add-custom-domain-for-snapchat-conversions-api-gateway",
+    "doc_title": "",
+    "doc_platform": "",
+    "discovery_source": "sitemap(free)"
+  },
+  {
+    "product": "stape",
+    "vendor_host": "stape.io",
+    "doc_url": "https://stape.io/helpdesk/knowledgebase/add-custom-domain-for-tiktok-events-api-gateway",
+    "doc_title": "",
+    "doc_platform": "",
+    "discovery_source": "sitemap(free)"
+  },
+  {
+    "product": "stape",
+    "vendor_host": "stape.io",
+    "doc_url": "https://stape.io/helpdesk/knowledgebase/when-should-i-use-cname-record-instead-of-a-records-for-domain-verification",
+    "doc_title": "",
+    "doc_platform": "",
+    "discovery_source": "sitemap(free)"
+  },
+  {
+    "product": "stape",
+    "vendor_host": "stape.io",
+    "doc_url": "https://stape.io/news/a-new-way-to-set-up-a-custom-domain-in-server-gtm",
+    "doc_title": "",
+    "doc_platform": "",
+    "discovery_source": "sitemap(free)"
+  },
+  {
+    "product": "stape",
+    "vendor_host": "stape.io",
+    "doc_url": "https://stape.io/nl/blog/how-to-add-a-custom-domain-to-the-google-tag-manager-server-container",
+    "doc_title": "",
+    "doc_platform": "",
+    "discovery_source": "sitemap(free)"
+  },
+  {
+    "product": "stape",
+    "vendor_host": "stape.io",
+    "doc_url": "https://stape.io/tr/blog/how-to-add-a-custom-domain-to-the-google-tag-manager-server-container",
+    "doc_title": "",
+    "doc_platform": "",
+    "discovery_source": "sitemap(free)"
+  },
+  {
+    "product": "stape",
+    "vendor_host": "stape.io",
+    "doc_url": "https://stape.io/ua/blog/yak-dodati-custom-domain-do-server-container-google-tag-manager",
+    "doc_title": "",
+    "doc_platform": "",
+    "discovery_source": "sitemap(free)"
+  },
+  {
+    "product": "super",
+    "vendor_host": "super.so",
+    "doc_url": "https://docs.super.so/add-search-filters-and-sorting-to-a-notion-database/sample-table-database/custom-domain-setup",
+    "doc_title": "",
+    "doc_platform": "",
+    "discovery_source": "sitemap(free)"
+  },
+  {
+    "product": "super",
+    "vendor_host": "super.so",
+    "doc_url": "https://docs.super.so/custom-domain",
+    "doc_title": "Custom domain - Super Docs",
+    "doc_platform": "",
+    "discovery_source": "serp"
+  },
+  {
+    "product": "vercel",
+    "vendor_host": "vercel.com",
+    "doc_url": "https://vercel.com/changelog/easily-manage-custom-nameservers-for-domains",
+    "doc_title": "",
+    "doc_platform": "",
+    "discovery_source": "sitemap(free)"
+  },
+  {
+    "product": "vercel",
+    "vendor_host": "vercel.com",
+    "doc_url": "https://vercel.com/changelog/unlimited-custom-domains-for-all-pro-teams",
+    "doc_title": "",
+    "doc_platform": "",
+    "discovery_source": "sitemap(free)"
+  },
+  {
+    "product": "vercel",
+    "vendor_host": "vercel.com",
+    "doc_url": "https://vercel.com/customers/how-vercel-helps-mmm-page-manage-over-30-000-custom-domains",
+    "doc_title": "",
+    "doc_platform": "",
+    "discovery_source": "sitemap(free)"
+  },
+  {
+    "product": "vercel",
+    "vendor_host": "vercel.com",
+    "doc_url": "https://vercel.com/docs/domains/managing-nameservers",
+    "doc_title": "",
+    "doc_platform": "",
+    "discovery_source": "sitemap(free)"
+  },
+  {
+    "product": "vercel",
+    "vendor_host": "vercel.com",
+    "doc_url": "https://vercel.com/docs/domains/set-up-custom-domain",
+    "doc_title": "",
+    "doc_platform": "",
+    "discovery_source": "sitemap(free)"
+  },
+  {
+    "product": "vercel",
+    "vendor_host": "vercel.com",
+    "doc_url": "https://vercel.com/docs/domains/working-with-domains/add-a-domain",
+    "doc_title": "Adding & Configuring a Custom Domain",
+    "doc_platform": "",
+    "discovery_source": "serp"
+  },
+  {
+    "product": "vercel",
+    "vendor_host": "vercel.com",
+    "doc_url": "https://vercel.com/docs/domains/working-with-domains/add-a-domain-to-environment",
+    "doc_title": "",
+    "doc_platform": "",
+    "discovery_source": "sitemap(free)"
+  },
+  {
+    "product": "vercel",
+    "vendor_host": "vercel.com",
+    "doc_url": "https://vercel.com/docs/domains/working-with-nameservers",
+    "doc_title": "",
+    "doc_platform": "",
+    "discovery_source": "sitemap(free)"
+  },
+  {
+    "product": "vercel",
+    "vendor_host": "vercel.com",
+    "doc_url": "https://vercel.com/docs/platforms/platform-elements/actions/add-custom-domain",
+    "doc_title": "",
+    "doc_platform": "",
+    "discovery_source": "sitemap(free)"
+  },
+  {
+    "product": "vercel",
+    "vendor_host": "vercel.com",
+    "doc_url": "https://vercel.com/docs/platforms/platform-elements/blocks/custom-domain",
+    "doc_title": "",
+    "doc_platform": "",
+    "discovery_source": "sitemap(free)"
+  },
+  {
+    "product": "vercel",
+    "vendor_host": "vercel.com",
+    "doc_url": "https://vercel.com/docs/rest-api/domains-registrar/update-nameservers-for-a-domain",
+    "doc_title": "",
+    "doc_platform": "",
+    "discovery_source": "sitemap(free)"
+  },
+  {
+    "product": "vercel",
+    "vendor_host": "vercel.com",
+    "doc_url": "https://vercel.com/docs/rest-api/domains/get-domain-verification-record",
+    "doc_title": "",
+    "doc_platform": "",
+    "discovery_source": "sitemap(free)"
+  },
+  {
+    "product": "vercel",
+    "vendor_host": "vercel.com",
+    "doc_url": "https://vercel.com/docs/rest-api/domains/list-project-domains-by-apex-domain",
+    "doc_title": "",
+    "doc_platform": "",
+    "discovery_source": "sitemap(free)"
+  },
+  {
+    "product": "vercel",
+    "vendor_host": "vercel.com",
+    "doc_url": "https://vercel.com/docs/rest-api/domains/update-or-move-apex-domain",
+    "doc_title": "",
+    "doc_platform": "",
+    "discovery_source": "sitemap(free)"
+  },
+  {
+    "product": "vercel",
+    "vendor_host": "vercel.com",
+    "doc_url": "https://vercel.com/docs/rest-api/projects/add-a-domain-to-a-project",
+    "doc_title": "",
+    "doc_platform": "",
+    "discovery_source": "sitemap(free)"
+  },
+  {
+    "product": "vercel",
+    "vendor_host": "vercel.com",
+    "doc_url": "https://vercel.com/docs/rest-api/sdk/domains-registrar/update-nameservers-for-a-domain",
+    "doc_title": "",
+    "doc_platform": "",
+    "discovery_source": "sitemap(free)"
+  },
+  {
+    "product": "vercel",
+    "vendor_host": "vercel.com",
+    "doc_url": "https://vercel.com/docs/rest-api/sdk/domains/get-domain-verification-record",
+    "doc_title": "",
+    "doc_platform": "",
+    "discovery_source": "sitemap(free)"
+  },
+  {
+    "product": "vercel",
+    "vendor_host": "vercel.com",
+    "doc_url": "https://vercel.com/docs/rest-api/sdk/domains/list-project-domains-by-apex-domain",
+    "doc_title": "",
+    "doc_platform": "",
+    "discovery_source": "sitemap(free)"
+  },
+  {
+    "product": "vercel",
+    "vendor_host": "vercel.com",
+    "doc_url": "https://vercel.com/docs/rest-api/sdk/domains/update-or-move-apex-domain",
+    "doc_title": "",
+    "doc_platform": "",
+    "discovery_source": "sitemap(free)"
+  },
+  {
+    "product": "vercel",
+    "vendor_host": "vercel.com",
+    "doc_url": "https://vercel.com/docs/rest-api/sdk/projects/add-a-domain-to-a-project",
+    "doc_title": "",
+    "doc_platform": "",
+    "discovery_source": "sitemap(free)"
+  },
+  {
+    "product": "vercel",
+    "vendor_host": "vercel.com",
+    "doc_url": "https://vercel.com/i/cname-vs-a-record",
+    "doc_title": "",
+    "doc_platform": "",
+    "discovery_source": "sitemap(free)"
+  },
+  {
+    "product": "vercel",
+    "vendor_host": "vercel.com",
+    "doc_url": "https://vercel.com/kb/domain-name-server-dns",
+    "doc_title": "",
+    "doc_platform": "",
+    "discovery_source": "sitemap(free)"
+  },
+  {
+    "product": "vercel",
+    "vendor_host": "vercel.com",
+    "doc_url": "https://vercel.com/kb/guide/can-a-caa-record-be-added-to-a-subdomain-configured-with-cname",
+    "doc_title": "",
+    "doc_platform": "",
+    "discovery_source": "sitemap(free)"
+  },
+  {
+    "product": "vercel",
+    "vendor_host": "vercel.com",
+    "doc_url": "https://vercel.com/kb/guide/change-caa-records-with-vercel-cname",
+    "doc_title": "",
+    "doc_platform": "",
+    "discovery_source": "sitemap(free)"
+  },
+  {
+    "product": "vercel",
+    "vendor_host": "vercel.com",
+    "doc_url": "https://vercel.com/kb/guide/does-using-vercel-s-nameserver-s-lock-you-in",
+    "doc_title": "",
+    "doc_platform": "",
+    "discovery_source": "sitemap(free)"
+  },
+  {
+    "product": "vercel",
+    "vendor_host": "vercel.com",
+    "doc_url": "https://vercel.com/kb/guide/how-can-i-use-special-characters-in-my-custom-domain",
+    "doc_title": "",
+    "doc_platform": "",
+    "discovery_source": "sitemap(free)"
+  },
+  {
+    "product": "vercel",
+    "vendor_host": "vercel.com",
+    "doc_url": "https://vercel.com/kb/guide/how-do-i-add-a-custom-domain-to-my-vercel-project",
+    "doc_title": "",
+    "doc_platform": "",
+    "discovery_source": "sitemap(free)"
+  },
+  {
+    "product": "vercel",
+    "vendor_host": "vercel.com",
+    "doc_url": "https://vercel.com/kb/guide/how-do-i-add-a-domain-using-the-vercel-api",
+    "doc_title": "",
+    "doc_platform": "",
+    "discovery_source": "sitemap(free)"
+  },
+  {
+    "product": "vercel",
+    "vendor_host": "vercel.com",
+    "doc_url": "https://vercel.com/kb/guide/how-do-i-change-my-nameservers-on-vercel",
+    "doc_title": "",
+    "doc_platform": "",
+    "discovery_source": "sitemap(free)"
+  },
+  {
+    "product": "vercel",
+    "vendor_host": "vercel.com",
+    "doc_url": "https://vercel.com/kb/guide/preview-deployment-suffix-without-vercel-nameservers",
+    "doc_title": "",
+    "doc_platform": "",
+    "discovery_source": "sitemap(free)"
+  },
+  {
+    "product": "vercel",
+    "vendor_host": "vercel.com",
+    "doc_url": "https://vercel.com/kb/guide/why-use-domain-nameservers-method-wildcard-domains",
+    "doc_title": "",
+    "doc_platform": "",
+    "discovery_source": "sitemap(free)"
+  },
+  {
+    "product": "vercel",
+    "vendor_host": "vercel.com",
+    "doc_url": "https://vercel.com/kb/guide/wildcard-domain-without-vercel-nameservers",
+    "doc_title": "",
+    "doc_platform": "",
+    "discovery_source": "sitemap(free)"
+  },
+  {
+    "product": "vibecodeapp",
+    "vendor_host": "mintlify.app",
+    "doc_url": "https://vibecodeapp.mintlify.app/deploying/custom-domain",
+    "doc_title": "Connect a Custom Domain - Vibecode Docs",
+    "doc_platform": "Mintlify",
+    "discovery_source": "serp"
+  },
+  {
+    "product": "vibecodeapp",
+    "vendor_host": "vibecodeapp.com",
+    "doc_url": "https://www.vibecodeapp.com/docs/deploying/custom-domain",
+    "doc_title": "",
+    "doc_platform": "",
+    "discovery_source": "sitemap(free)"
+  },
+  {
+    "product": "youform",
+    "vendor_host": "youform.com",
+    "doc_url": "https://youform.com/google-forms/custom-domain-in-google-forms/",
+    "doc_title": "Google Forms Custom URL & Custom Domain",
+    "doc_platform": "",
+    "discovery_source": "serp"
+  },
+  {
+    "product": "youtube",
+    "vendor_host": "youtube.com",
+    "doc_url": "https://www.youtube.com/watch?v=7g9zXvqOmTE&vl=en",
+    "doc_title": "Ditch the Generic Azure URL\u2014Set Up Your Custom Domain ...",
+    "doc_platform": "",
+    "discovery_source": "serp"
+  }
+]

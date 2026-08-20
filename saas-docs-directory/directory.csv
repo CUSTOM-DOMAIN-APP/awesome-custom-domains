@@ -1,0 +1,173 @@
+product,vendor_host,doc_url,doc_title,doc_platform,discovery_source
+aasaan,readme.io,https://aasaan.readme.io/reference/post_storeid-customdomain,,ReadMe,commoncrawl-domain(free)
+activecampaign,activecampaign.com,https://help.activecampaign.com/hc/en-us/articles/207331210-How-do-I-set-up-a-custom-domain-name-CNAME-in-ActiveCampaign,How do I set up a custom domain name (CNAME) in ...,Zendesk,serp
+adobe,adobe.com,https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/custom-domain-names/add-custom-domain-name,Add a Custom Domain Name | Adobe Experience Manager,,serp
+alphavima,alphavima.com,https://alphavima.com/blog/power-pages-custom-domain-setup/,Set Up Custom Domain & SSL in Power Pages ...,,serp
+amazon,amazon.com,https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/CNAMEs.html,Use custom URLs by adding alternate domain names ...,,serp
+appointmatic,freshdesk.com,https://appointmatic.freshdesk.com/support/solutions/articles/80000963112-how-to-connect-your-domain-to-a-funnel-website,,Freshdesk,commoncrawl-domain(free)
+art-storefronts,intercom.help,https://intercom.help/art-storefronts/en/articles/9116772-using-your-custom-email-address-from-your-custom-domain,,Intercom,commoncrawl-domain(free)
+art-storefronts,intercom.help,https://intercom.help/art-storefronts/en/articles/9116776-custom-domains-form,,Intercom,commoncrawl-domain(free)
+art-storefronts,intercom.help,https://intercom.help/art-storefronts/en/collections/8942260-custom-domain-set-up,,Intercom,commoncrawl-domain(free)
+auth0,auth0.com,https://auth0.com/docs/customize/custom-domains/self-managed-certificates,Configure Custom Domains with Self-Managed Certificates,,serp
+buildwithfern,buildwithfern.com,https://buildwithfern.com/learn/dashboard/configuration/custom-domains,Set up a custom domain | Fern Documentation,,serp
+cloud,cloud.gov,https://docs.cloud.gov/pages/using-pages/custom-domains/,Custom Domains,,serp
+cloud,cloud.gov,https://docs.cloud.gov/platform/management/custom-domains/,,,sitemap(free)
+cloudcone-api,readme.io,https://cloudcone-api.readme.io/reference/add-domain,,ReadMe,commoncrawl-domain(free)
+cloudflare,cloudflare.com,https://developers.cloudflare.com/ai-gateway/configuration/custom-domains/,,,sitemap(free)
+cloudflare,cloudflare.com,https://developers.cloudflare.com/ai-search/configuration/retrieval/public-endpoint/custom-domains/,,,sitemap(free)
+cloudflare,cloudflare.com,https://developers.cloudflare.com/automatic-platform-optimization/get-started/change-nameservers/,,,sitemap(free)
+cloudflare,cloudflare.com,https://developers.cloudflare.com/changelog/post/2026-05-06-radar-tld-nameserver-performance/,,,sitemap(free)
+cloudflare,cloudflare.com,https://developers.cloudflare.com/changelog/post/2026-08-06-public-endpoint-custom-domains-and-namespaces/,,,sitemap(free)
+cloudflare,cloudflare.com,https://developers.cloudflare.com/cloudflare-one/email-security/setup/post-delivery-deployment/bcc-journaling/bcc-setup/gmail-bcc-setup/connect-domains/,,,sitemap(free)
+cloudflare,cloudflare.com,https://developers.cloudflare.com/dns/cname-flattening/,,,sitemap(free)
+cloudflare,cloudflare.com,https://developers.cloudflare.com/dns/cname-flattening/cname-flattening-diagram/,,,sitemap(free)
+cloudflare,cloudflare.com,https://developers.cloudflare.com/dns/cname-flattening/set-up-cname-flattening/,,,sitemap(free)
+cloudflare,cloudflare.com,https://developers.cloudflare.com/dns/foundation-dns/advanced-nameservers/,,,sitemap(free)
+cloudflare,cloudflare.com,https://developers.cloudflare.com/dns/manage-dns-records/troubleshooting/cname-domain-verification/,,,sitemap(free)
+cloudflare,cloudflare.com,https://developers.cloudflare.com/dns/nameservers/,,,sitemap(free)
+cloudflare,cloudflare.com,https://developers.cloudflare.com/dns/nameservers/custom-nameservers/,,,sitemap(free)
+cloudflare,cloudflare.com,https://developers.cloudflare.com/dns/nameservers/custom-nameservers/account-custom-nameservers/,,,sitemap(free)
+cloudflare,cloudflare.com,https://developers.cloudflare.com/dns/nameservers/custom-nameservers/tenant-custom-nameservers/,,,sitemap(free)
+cloudflare,cloudflare.com,https://developers.cloudflare.com/dns/nameservers/custom-nameservers/zone-custom-nameservers/,,,sitemap(free)
+cloudflare,cloudflare.com,https://developers.cloudflare.com/dns/nameservers/nameserver-options/,,,sitemap(free)
+cloudflare,cloudflare.com,https://developers.cloudflare.com/dns/nameservers/update-nameservers/,,,sitemap(free)
+cloudflare,cloudflare.com,https://developers.cloudflare.com/dns/zone-setups/troubleshooting/cannot-add-domain/,,,sitemap(free)
+cloudflare,cloudflare.com,https://developers.cloudflare.com/dns/zone-setups/troubleshooting/pending-nameservers/,,,sitemap(free)
+cloudflare,cloudflare.com,https://developers.cloudflare.com/images/optimization/hosted-images/serve-from-custom-domains/,,,sitemap(free)
+cloudflare,cloudflare.com,https://developers.cloudflare.com/load-balancing/additional-options/cname-flattening/,,,sitemap(free)
+cloudflare,cloudflare.com,https://developers.cloudflare.com/pages/configuration/custom-domains/,,,sitemap(free)
+cloudflare,cloudflare.com,https://developers.cloudflare.com/pages/how-to/redirect-to-custom-domain/,,,sitemap(free)
+cloudflare,cloudflare.com,https://developers.cloudflare.com/realtime/turn/custom-domains/,,,sitemap(free)
+cloudflare,cloudflare.com,https://developers.cloudflare.com/registrar/custom-domain-protection/,,,sitemap(free)
+cloudflare,cloudflare.com,https://developers.cloudflare.com/rules/origin-rules/tutorials/point-to-pages-with-custom-domain/,,,sitemap(free)
+cloudflare,cloudflare.com,https://developers.cloudflare.com/rules/origin-rules/tutorials/point-to-r2-bucket-with-custom-domain/,,,sitemap(free)
+cloudflare,cloudflare.com,https://developers.cloudflare.com/sandbox/guides/preview-urls-custom-domain/,,,sitemap(free)
+cloudflare,cloudflare.com,https://developers.cloudflare.com/stream/stream-live/custom-domains/,,,sitemap(free)
+cloudflare,cloudflare.com,https://developers.cloudflare.com/use-cases/saas/custom-domains/,,,sitemap(free)
+cloudflare,cloudflare.com,https://developers.cloudflare.com/workers/configuration/routing/custom-domains/,,,sitemap(free)
+davidmuraya,davidmuraya.com,https://davidmuraya.com/blog/custom-domain-google-cloud-run/,How to Set Up a Custom Domain for Your Google Cloud Run ...,,serp
+davidmuraya,davidmuraya.com,https://davidmuraya.com/blog/tags/custom-domain/,,,sitemap(free)
+descope,descope.com,https://docs.descope.com/how-to-deploy-to-production/custom-domain,Configuring Custom Domain with CNAME,,serp
+dorway-ltd,intercom.help,https://intercom.help/dorway-ltd/en/articles/8625265-how-do-i-get-a-custom-domain-login-for-my-organisation,,Intercom,commoncrawl-domain(free)
+dynalinks,readme.io,https://dynalinks.readme.io/reference/get_projects-id-verify-custom-domain,,ReadMe,commoncrawl-domain(free)
+emailpref,gitbook.io,https://emailpref.gitbook.io/emailpref-documentation/general/setup-custom-domain,,GitBook,commoncrawl-domain(free)
+exabytes,freshdesk.com,https://exabytes.freshdesk.com/en/support/solutions/articles/14000031330-update-domain-nameservers-via-client-area,,Freshdesk,commoncrawl-domain(free)
+froiden,freshdesk.com,https://froiden.freshdesk.com/support/solutions/articles/43000717482-custom-domain-setup-for-customer,,Freshdesk,commoncrawl-domain(free)
+froiden,freshdesk.com,https://froiden.freshdesk.com/support/solutions/articles/43000783091-custom-domain-setup-for-super-admin,,Freshdesk,commoncrawl-domain(free)
+froiden,freshdesk.com,https://froiden.freshdesk.com/support/solutions/articles/43000783092-custom-domain-setup-for-customer,,Freshdesk,commoncrawl-domain(free)
+gohighlevelassist,freshdesk.com,https://gohighlevelassist.freshdesk.com/support/solutions/articles/155000002547-how-to-add-domains-in-the-wordpress-dashboard,,Freshdesk,commoncrawl-domain(free)
+gohighlevelassist,freshdesk.com,https://gohighlevelassist.freshdesk.com/support/solutions/articles/48001185852-facebook-domain-verification-by-meta-tag,,Freshdesk,commoncrawl-domain(free)
+google,google.com,https://docs.cloud.google.com/appengine/docs/flexible/securing-custom-domains-with-ssl,Secure custom domains with SSL | App Engine flexible ...,,serp
+google,google.com,https://firebase.google.com/docs/hosting/custom-domain,Connect a custom domain | Firebase Hosting - Google,,serp
+google,google.com,https://groups.google.com/g/google-appengine/c/FfDF_NwSPqQ,Redirected custom domain from Google does not show in ...,,serp
+google,google.com,https://groups.google.com/g/google-appengine/c/xpGrF9lYwmM/m/FQ4VNtf73zoJ,What CNAME do I set?,,serp
+google,google.com,https://www.google.com/goto?url=CAESYwHuR6pNa2te5g6bRDgb5AnDSAdsb1jgdbnKbsVFOIB50gqs-iM8seoWuu7KSeBc4VM4f5zAKHgPfR5eH8kEPu24hnNGWClMB_NPc3rL2La2AZ90pXD--lSnDIxveWPV5xHpjQ==,How to Verify Custom Domain on Google Search Central ...,,serp
+helpscout,helpscout.com,https://docs.helpscout.com/article/1400-create-cname-records-at-cloudflare-to-work-with-help-scout,,,sitemap(free)
+helpscout,helpscout.com,https://docs.helpscout.com/article/42-use-your-own-custom-domain-with-docs,Use Your Own Custom Domain With Docs,HelpScout,serp
+heroku,heroku.com,https://devcenter.heroku.com/articles/apex-domains,,,sitemap(free)
+heroku,heroku.com,https://devcenter.heroku.com/articles/custom-domains,Custom Domain Names for Apps,,serp
+iwantempire,freshdesk.com,https://iwantempire.freshdesk.com/support/solutions/articles/44001685982-vanity-domains,,Freshdesk,commoncrawl-domain(free)
+jetico,freshdesk.com,https://jetico.freshdesk.com/support/solutions/articles/19000130946-how-to-add-domain-users-to-protection-policy,,Freshdesk,commoncrawl-domain(free)
+kajabi,kajabi.com,https://help.kajabi.com/articles/marketing/email-campaigns/why-are-my-emails-not-sending-or-receiving-after-i-connect-my-custom-domain,,,sitemap(free)
+kajabi,kajabi.com,https://help.kajabi.com/articles/website/domains/connect-a-custom-domain,Connect a custom domain,,serp
+kajabi,kajabi.com,https://help.kajabi.com/articles/website/domains/disconnect-your-custom-domain,,,sitemap(free)
+kajabi,kajabi.com,https://help.kajabi.com/articles/website/domains/how-can-i-connect-my-custom-domain-to-kajabi-using-nameservers,,,sitemap(free)
+kajabi,kajabi.com,https://help.kajabi.com/articles/website/domains/how-to-set-up-a-forwarding-rule-for-your-custom-domain-on-bluehost,,,sitemap(free)
+kajabi,kajabi.com,https://help.kajabi.com/articles/website/domains/how-to-set-up-a-forwarding-rule-for-your-custom-domain-on-godaddy,,,sitemap(free)
+kajabi,kajabi.com,https://help.kajabi.com/articles/website/domains/how-to-verify-your-custom-domain-on-kajabi-for-google-workspace,,,sitemap(free)
+kajabi,kajabi.com,https://help.kajabi.com/articles/website/domains/kajabi-default-subdomain-vs-custom-domain,,,sitemap(free)
+kajabi,kajabi.com,https://help.kajabi.com/articles/website/domains/troubleshooting-custom-domain-issues,,,sitemap(free)
+kajabi,kajabi.com,https://help.kajabi.com/connect-a-custom-domain-to-kajabi,,,sitemap(free)
+lovable,lovable.dev,https://docs.lovable.dev/features/custom-domain,Set up a custom domain,,serp
+manageengine,manageengine.com,https://www.manageengine.com/appcreator/help/app-settings/verify-custom-domain.html,Verify Custom Domain of the Customer Portal,,serp
+microsoft,microsoft.com,https://learn.microsoft.com/en-us/azure/app-service/app-service-web-tutorial-custom-domain,Set up an existing custom domain in Azure App Service,,serp
+microsoft,microsoft.com,https://learn.microsoft.com/en-us/microsoft-365/admin/setup/add-domain?view=o365-worldwide,Add a Custom Domain to Microsoft 365,,serp
+mini-course-generator,intercom.help,https://intercom.help/mini-course-generator/en/articles/7864258-customizing-links-with-custom-domain-cname,,Intercom,commoncrawl-domain(free)
+moonback,readme.io,https://moonback.readme.io/reference/your-own-domain-name,,ReadMe,commoncrawl-domain(free)
+mux,mux.com,https://www.mux.com/blog/introducing-custom-domains,,,sitemap(free)
+mux,mux.com,https://www.mux.com/docs/changelog/custom-domains-for-mux-video-now-in-beta,,,sitemap(free)
+mux,mux.com,https://www.mux.com/docs/changelog/custom-domains-mux-video-GA,,,sitemap(free)
+mux,mux.com,https://www.mux.com/docs/guides/integrate-a-data-custom-domain,,,sitemap(free)
+mux,mux.com,https://www.mux.com/docs/guides/use-a-custom-domain-for-streaming,Use your own custom domain,,serp
+ngrok,ngrok.com,https://ngrok.com/docs/domains/custom-domains,How to Use A Custom Domain,,serp
+ngrok,ngrok.com,https://ngrok.com/docs/gateway/domains/custom-domains,,,sitemap(free)
+ngrok,ngrok.com,https://ngrok.com/docs/gateway/k8s/guides/custom-domain,,,sitemap(free)
+okta,okta.com,https://support.okta.com/help/s/question/0D54z00009NKDaNCAX/setting-up-a-custom-domain-branding?language=en_US,Setting up a Custom Domain - Branding,,serp
+onwhatsapp,gitbook.io,https://onwhatsapp.gitbook.io/quick-start/your-own-domain,,GitBook,commoncrawl-domain(free)
+pages,pages.dev,https://cloudflare-docs-7ou.pages.dev/pages/configuration/custom-domains/,Custom domains · Cloudflare Pages docs,,serp
+portfoliobox,portfoliobox.com,https://www.portfoliobox.com/documentation/connect-your-custom-domain-to-your-portfoliobox-site,Connect a custom domain – Documentation,,serp
+portfoliobox,portfoliobox.com,https://www.portfoliobox.com/magazine/setting-up-a-custom-domain-with-portfoliobox,,,sitemap(free)
+reddit,reddit.com,https://www.reddit.com/r/AZURE/comments/1kor4oa/struggling_with_custom_domain_verification/,Struggling with Custom Domain Verification : r/AZURE,,serp
+render,render.com,https://render.com/docs/custom-domains,Custom Domains on Render,,serp
+replit,replit.com,https://docs.replit.com/build/add-custom-domain,,,sitemap(free)
+replit,replit.com,https://docs.replit.com/features/publishing/custom-domains,Custom Domains,,serp
+replit,replit.com,https://docs.replit.com/fr/build/add-custom-domain,,,sitemap(free)
+replit,replit.com,https://docs.replit.com/fr/cloud-services/deployments/custom-domains,,,sitemap(free)
+replit,replit.com,https://docs.replit.com/fr/features/publishing/custom-domains,,,sitemap(free)
+replit,replit.com,https://docs.replit.com/fr/help/custom-domains-and-dns,,,sitemap(free)
+replit,replit.com,https://docs.replit.com/help/custom-domains-and-dns,,,sitemap(free)
+replit,replit.com,https://docs.replit.com/ja/build/add-custom-domain,,,sitemap(free)
+replit,replit.com,https://docs.replit.com/ja/features/publishing/custom-domains,,,sitemap(free)
+replit,replit.com,https://docs.replit.com/ja/help/custom-domains-and-dns,,,sitemap(free)
+replit,replit.com,https://docs.replit.com/ko/build/add-custom-domain,,,sitemap(free)
+replit,replit.com,https://docs.replit.com/ko/features/publishing/custom-domains,,,sitemap(free)
+replit,replit.com,https://docs.replit.com/ko/help/custom-domains-and-dns,,,sitemap(free)
+replit,replit.com,https://docs.replit.com/pt/build/add-custom-domain,,,sitemap(free)
+replit,replit.com,https://docs.replit.com/pt/cloud-services/deployments/custom-domains,,,sitemap(free)
+replit,replit.com,https://docs.replit.com/pt/features/publishing/custom-domains,,,sitemap(free)
+replit,replit.com,https://docs.replit.com/pt/help/custom-domains-and-dns,,,sitemap(free)
+sidxparab,gitbook.io,https://sidxparab.gitbook.io/subdomain-enumeration-guide/active-enumeration/tls-csp-cname,,GitBook,commoncrawl-domain(free)
+simplybiz,zendesk.com,https://simplybiz.zendesk.com/hc/en-us/articles/33190876886673-6-reasons-why-your-business-needs-a-custom-domain-name,,Zendesk,commoncrawl-domain(free)
+spacecore,gitbook.io,https://spacecore.gitbook.io/wiki/en/network-and-security-configuration/how-to-connect-domain,,GitBook,commoncrawl-domain(free)
+spri,spri.ng,https://www.spri.ng/creator-resources/connecting-a-custom-domain,Connecting a custom domain,,serp
+squareup,squareup.com,https://squareup.com/help/us/en/article/6916-connect-your-domain-with-square-online-store,Connect a custom domain to your Square Online site,,serp
+stape,stape.io,https://stape.io/blog/dns-configuration-for-custom-domain,DNS configuration for custom domain [Server-side tracking],,serp
+stape,stape.io,https://stape.io/blog/how-to-add-a-custom-domain-to-the-google-tag-manager-server-container,,,sitemap(free)
+stape,stape.io,https://stape.io/blog/use-facebook-events-cannot-verify-domain,,,sitemap(free)
+stape,stape.io,https://stape.io/helpdesk/documentation/add-custom-domain-in-stape,,,sitemap(free)
+stape,stape.io,https://stape.io/helpdesk/documentation/custom-domain-options-for-sgtm,,,sitemap(free)
+stape,stape.io,https://stape.io/helpdesk/knowledgebase/add-custom-domain-for-snapchat-conversions-api-gateway,,,sitemap(free)
+stape,stape.io,https://stape.io/helpdesk/knowledgebase/add-custom-domain-for-tiktok-events-api-gateway,,,sitemap(free)
+stape,stape.io,https://stape.io/helpdesk/knowledgebase/when-should-i-use-cname-record-instead-of-a-records-for-domain-verification,,,sitemap(free)
+stape,stape.io,https://stape.io/news/a-new-way-to-set-up-a-custom-domain-in-server-gtm,,,sitemap(free)
+stape,stape.io,https://stape.io/nl/blog/how-to-add-a-custom-domain-to-the-google-tag-manager-server-container,,,sitemap(free)
+stape,stape.io,https://stape.io/tr/blog/how-to-add-a-custom-domain-to-the-google-tag-manager-server-container,,,sitemap(free)
+stape,stape.io,https://stape.io/ua/blog/yak-dodati-custom-domain-do-server-container-google-tag-manager,,,sitemap(free)
+super,super.so,https://docs.super.so/add-search-filters-and-sorting-to-a-notion-database/sample-table-database/custom-domain-setup,,,sitemap(free)
+super,super.so,https://docs.super.so/custom-domain,Custom domain - Super Docs,,serp
+vercel,vercel.com,https://vercel.com/changelog/easily-manage-custom-nameservers-for-domains,,,sitemap(free)
+vercel,vercel.com,https://vercel.com/changelog/unlimited-custom-domains-for-all-pro-teams,,,sitemap(free)
+vercel,vercel.com,https://vercel.com/customers/how-vercel-helps-mmm-page-manage-over-30-000-custom-domains,,,sitemap(free)
+vercel,vercel.com,https://vercel.com/docs/domains/managing-nameservers,,,sitemap(free)
+vercel,vercel.com,https://vercel.com/docs/domains/set-up-custom-domain,,,sitemap(free)
+vercel,vercel.com,https://vercel.com/docs/domains/working-with-domains/add-a-domain,Adding & Configuring a Custom Domain,,serp
+vercel,vercel.com,https://vercel.com/docs/domains/working-with-domains/add-a-domain-to-environment,,,sitemap(free)
+vercel,vercel.com,https://vercel.com/docs/domains/working-with-nameservers,,,sitemap(free)
+vercel,vercel.com,https://vercel.com/docs/platforms/platform-elements/actions/add-custom-domain,,,sitemap(free)
+vercel,vercel.com,https://vercel.com/docs/platforms/platform-elements/blocks/custom-domain,,,sitemap(free)
+vercel,vercel.com,https://vercel.com/docs/rest-api/domains-registrar/update-nameservers-for-a-domain,,,sitemap(free)
+vercel,vercel.com,https://vercel.com/docs/rest-api/domains/get-domain-verification-record,,,sitemap(free)
+vercel,vercel.com,https://vercel.com/docs/rest-api/domains/list-project-domains-by-apex-domain,,,sitemap(free)
+vercel,vercel.com,https://vercel.com/docs/rest-api/domains/update-or-move-apex-domain,,,sitemap(free)
+vercel,vercel.com,https://vercel.com/docs/rest-api/projects/add-a-domain-to-a-project,,,sitemap(free)
+vercel,vercel.com,https://vercel.com/docs/rest-api/sdk/domains-registrar/update-nameservers-for-a-domain,,,sitemap(free)
+vercel,vercel.com,https://vercel.com/docs/rest-api/sdk/domains/get-domain-verification-record,,,sitemap(free)
+vercel,vercel.com,https://vercel.com/docs/rest-api/sdk/domains/list-project-domains-by-apex-domain,,,sitemap(free)
+vercel,vercel.com,https://vercel.com/docs/rest-api/sdk/domains/update-or-move-apex-domain,,,sitemap(free)
+vercel,vercel.com,https://vercel.com/docs/rest-api/sdk/projects/add-a-domain-to-a-project,,,sitemap(free)
+vercel,vercel.com,https://vercel.com/i/cname-vs-a-record,,,sitemap(free)
+vercel,vercel.com,https://vercel.com/kb/domain-name-server-dns,,,sitemap(free)
+vercel,vercel.com,https://vercel.com/kb/guide/can-a-caa-record-be-added-to-a-subdomain-configured-with-cname,,,sitemap(free)
+vercel,vercel.com,https://vercel.com/kb/guide/change-caa-records-with-vercel-cname,,,sitemap(free)
+vercel,vercel.com,https://vercel.com/kb/guide/does-using-vercel-s-nameserver-s-lock-you-in,,,sitemap(free)
+vercel,vercel.com,https://vercel.com/kb/guide/how-can-i-use-special-characters-in-my-custom-domain,,,sitemap(free)
+vercel,vercel.com,https://vercel.com/kb/guide/how-do-i-add-a-custom-domain-to-my-vercel-project,,,sitemap(free)
+vercel,vercel.com,https://vercel.com/kb/guide/how-do-i-add-a-domain-using-the-vercel-api,,,sitemap(free)
+vercel,vercel.com,https://vercel.com/kb/guide/how-do-i-change-my-nameservers-on-vercel,,,sitemap(free)
+vercel,vercel.com,https://vercel.com/kb/guide/preview-deployment-suffix-without-vercel-nameservers,,,sitemap(free)
+vercel,vercel.com,https://vercel.com/kb/guide/why-use-domain-nameservers-method-wildcard-domains,,,sitemap(free)
+vercel,vercel.com,https://vercel.com/kb/guide/wildcard-domain-without-vercel-nameservers,,,sitemap(free)
+vibecodeapp,mintlify.app,https://vibecodeapp.mintlify.app/deploying/custom-domain,Connect a Custom Domain - Vibecode Docs,Mintlify,serp
+vibecodeapp,vibecodeapp.com,https://www.vibecodeapp.com/docs/deploying/custom-domain,,,sitemap(free)
+youform,youform.com,https://youform.com/google-forms/custom-domain-in-google-forms/,Google Forms Custom URL & Custom Domain,,serp
+youtube,youtube.com,https://www.youtube.com/watch?v=7g9zXvqOmTE&vl=en,Ditch the Generic Azure URL—Set Up Your Custom Domain ...,,serp
