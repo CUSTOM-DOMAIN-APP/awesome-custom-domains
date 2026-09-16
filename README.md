@@ -180,6 +180,7 @@ Longer-form guides maintained by Custom Domain, one per vertical. Vendor-authore
 - [Domain Connect knowledge base](https://github.com/Domain-Connect/knowledge-base) - CC0 background material on the protocol and the problem space, and the source for the often-quoted finding that roughly half of users who attempt manual DNS configuration fail and abandon it.
 - [On-demand TLS](https://customdomain.ai/glossary/on-demand-tls) - Certificate issuance at first request, explained.
 - [One-click DNS setup](https://customdomain.ai/one-click-dns-setup) - How provider authorization connects a domain in about 30 seconds. The 30 seconds applies to the authorization and API-token paths, not to the guided manual flow.
+- [SPF and DMARC Statistics 2026](https://www.stackscan.com/blog/spf-dmarc-statistics) - A September 2026 crawl of the 173.1 million domains on the internet with an MX record, measuring what authentication they actually publish: 52.6% have no SPF, and 45.8% of the DMARC that exists is p=none.
 - [Why custom domains are hard](https://customdomain.ai/why-custom-domains-are-hard) - The three-party problem between platforms, users, and DNS providers.
 
 ## Contributing
