@@ -2,10 +2,13 @@
 
 A curated list of the tools, services and protocols for letting your users connect their own domain.
 
-**Status:** Maintained · every number traced to a source you can open · last audited 2026-09-04
+**Status:** Maintained · every number traced to a source you can open · last audited 2026-09-04, CustomDomain™ entries re-verified 2026-09-26
 
 [![awesome](https://img.shields.io/badge/awesome-custom%20domains-1c1917?style=flat)](https://github.com/CUSTOM-DOMAIN-APP/awesome-custom-domains)
+[![docs](https://img.shields.io/badge/docs-docs.customdomain.ai-1c1917?style=flat)](https://docs.customdomain.ai/docs)
 [![license](https://img.shields.io/badge/license-MIT-1c1917?style=flat)](./LICENSE)
+
+[Website](https://customdomain.ai) · [Docs](https://docs.customdomain.ai/docs) · [Console](https://app.customdomain.ai) · [Provider census](https://api.customdomain.ai/v1/providers/census) · [Contributing](#contributing)
 
 |  |  |
 |---|---|
@@ -13,12 +16,12 @@ A curated list of the tools, services and protocols for letting your users conne
 | **Who it's for** | Anyone building bring-your-own-domain into a SaaS product, and deciding whether to buy or build |
 | **Live at** | [customdomain.ai/custom-domains-for-saas](https://customdomain.ai/custom-domains-for-saas) |
 | **Stack** | Markdown. No build step, no dependencies, no tooling |
-| **Status** | Maintained by [Custom Domain](https://customdomain.ai) · prices and provider counts dated in place · competitors listed with their own pricing |
+| **Status** | Maintained by [CustomDomain™](https://customdomain.ai) · prices and provider counts dated in place · competitors listed with their own pricing |
 
 ## The problem this list is about
 
 Custom domains look like a one-week feature and are not. Your customer's domain sits at a DNS
-provider you do not control, exposing a write API you have never seen — or no API at all. An apex
+provider you do not control, exposing a write API you have never seen, or no API at all. An apex
 domain cannot hold a `CNAME` ([RFC 1034](https://datatracker.ietf.org/doc/html/rfc1034)), so the
 obvious instructions are wrong for a large share of your users. Every connected domain needs its
 own certificate, issued at runtime and renewed forever, which turns TLS from a deploy step into a
@@ -31,19 +34,19 @@ answer too. This list is the map of both.
 
 ## What it covers and who it's for
 
-If you are building a product where customers bring their own domain — a website builder, an email
-platform, an AI agent product, agency tooling — this is the map. It does not cover registrar
+If you are building a product where customers bring their own domain (a website builder, an email
+platform, an AI agent product, agency tooling), this is the map. It does not cover registrar
 shopping, general web hosting, or DNS hosting chosen for your own zone rather than your customers'.
 
-- **Buying it** — [managed services](#managed-services), and [what they cost](#pricing-how-the-managed-services-compare) on the axis each one actually sells.
-- **Building it** — [DIY building blocks](#diy-building-blocks), [ACME clients and rate limits](#acme-clients-and-certificate-limits), [DNS provider APIs](#dns-provider-apis).
-- **Getting the details right** — [open protocols](#open-protocols), [email domain authentication](#email-domain-authentication), [diagnostics](#diagnostics) for a connection that is stuck.
-- **Prior art** — [platform docs](#platform-custom-domain-docs), [reference implementations](#reference-implementations-and-examples), [MCP and agent tooling](#mcp-servers-and-ai-agent-tooling), [field guides by vertical](#field-guides-by-vertical), [further reading](#reading).
+- **Buying it:** [managed services](#managed-services), and [what they cost](#pricing-how-the-managed-services-compare) on the axis each one actually sells.
+- **Building it:** [DIY building blocks](#diy-building-blocks), [ACME clients and rate limits](#acme-clients-and-certificate-limits), [DNS provider APIs](#dns-provider-apis).
+- **Getting the details right:** [open protocols](#open-protocols), [email domain authentication](#email-domain-authentication), [diagnostics](#diagnostics) for a connection that is stuck.
+- **Prior art:** [platform docs](#platform-custom-domain-docs), [reference implementations](#reference-implementations-and-examples), [MCP and agent tooling](#mcp-servers-and-ai-agent-tooling), [field guides by vertical](#field-guides-by-vertical), [further reading](#reading).
 
 ## Quickstart
 
 There is nothing to install. The one thing worth doing before you trust any provider-coverage
-number in this file — including ours — is to read it from the endpoint the entries cite:
+number in this file, including ours, is to read it from the endpoint the entries cite:
 
 ```sh
 curl -s https://api.customdomain.ai/v1/providers/census \
@@ -60,21 +63,21 @@ End-to-end platforms that handle DNS setup, verification, and TLS for your custo
 
 - [Approximated](https://approximated.app) - Custom domain API and managed reverse proxy for connecting user domains, with per-domain pricing.
 - [Cloudflare for SaaS](https://developers.cloudflare.com/cloudflare-for-platforms/cloudflare-for-saas/) - Custom hostnames on Cloudflare's edge: certificate issuance and routing primitives for platforms already on Cloudflare (you build the onboarding UX).
-- [Custom Domain](https://customdomain.ai) - Domain connection for SaaS: 63 DNS providers catalogued, 25 of them configured automatically (17 by provider API token, 6 by one-click OAuth, 2 by Domain Connect) and the remaining 38 through a guided manual flow. Embeddable widget, REST API, [documentation](https://docs.customdomain.ai/docs), and a hosted MCP server. Free Starter tier ($0, 10 domain connections/yr); paid plans from $149/mo. (This list's maintainer.)
+- [CustomDomain™](https://customdomain.ai) - Domain connection for SaaS: 63 DNS providers catalogued, 25 of them configured automatically (17 by provider API token, 6 by one-click OAuth, 2 by Domain Connect) and the remaining 38 through a guided manual flow. Embeddable widget, REST API, [documentation](https://docs.customdomain.ai/docs), and a hosted MCP server. Free plan ($0, 10 domain connections/yr); paid plans from $149/mo. (This list's maintainer.)
 - [Entri](https://www.entri.com) - Domain connection suite with an embeddable modal (Connect), managed hosting/SSL (Power), certificates (Secure), in-app domain sales (Sell), and DNS monitoring.
 - [SaaS Custom Domains](https://saascustomdomains.com) - Managed custom domains with API and dashboard, aimed at SaaS products.
 
-The provider split above comes from the live census endpoint, `https://api.customdomain.ai/v1/providers/census`, counted 2026-08-19: 63 catalogued, 17 `api`, 6 `oauth`, 2 `dc`, 38 `manual`. The three numbers worth keeping straight are 63 catalogued, 25 with an automatic path, and 38 that still need a human in a DNS dashboard.
+The provider split above comes from the live census endpoint, `https://api.customdomain.ai/v1/providers/census`, counted 2026-09-26: 63 catalogued, 17 `api`, 6 `oauth`, 2 `dc`, 38 `manual`. The three numbers worth keeping straight are 63 catalogued, 25 with an automatic path, and 38 that still need a human in a DNS dashboard.
 
 ## Pricing: how the managed services compare
 
-Published list prices, all fetched 2026-08-19. Quota units differ between vendors, so the columns are not directly divisible into each other.
+Published list prices, all fetched 2026-08-19; the CustomDomain™ row was re-read from `GET https://api.customdomain.ai/v1/plans` on 2026-09-26. Quota units differ between vendors, so the columns are not directly divisible into each other.
 
 | Service | Published entry price | Free tier | Billed per |
 |---|---|---|---|
 | [Approximated](https://approximated.app) | $0.20 per custom domain per month, $20/mo minimum below 100 domains, 400 GB bandwidth included | 7-day trial only | domain per month |
 | [Cloudflare for SaaS](https://developers.cloudflare.com/cloudflare-for-platforms/cloudflare-for-saas/plans/) | 100 custom hostnames included on Free, Pro, and Business; $0.10 per additional hostname | 100 hostnames on the free Cloudflare plan | hostname per month |
-| [Custom Domain](https://customdomain.ai/pricing) | $149/mo (Startup, 600 domain connections/yr) | Starter, $0, 10 domain connections/yr | connection per year |
+| [CustomDomain™](https://customdomain.ai/pricing) | $149/mo (Startup, 600 domain connections/yr) | Free, $0, 10 domain connections/yr | connection per year |
 | [Entri](https://www.entri.com/plans) | $249/mo (Startup, 600 domains/yr) | none | domain per year |
 | [SaaS Custom Domains](https://saascustomdomains.com) | $29/mo for 100 domains ($0.29 per domain) | free trial, no card required | domain per month |
 
@@ -82,8 +85,8 @@ Limitations of this table, stated plainly:
 
 - It is one axis. Approximated and Cloudflare for SaaS sell edge primitives and expect you to build the onboarding flow; the others sell the onboarding flow itself. A per-hostname rate and a per-connection annual quota are not the same product.
 - Entri's Growth, Premium, and Enterprise tiers are all "Talk to Sales", so the only Entri number anyone can compare is the Startup tier.
-- Custom Domain's free Starter tier is not the whole product. The Power and Secure/SSL API groups are gated entitlements and return `402 plan_upgrade_required` to a tenant without them.
-- This list is maintained by Custom Domain. Read the vendor pages before deciding, and treat every price here as a snapshot that will drift.
+- CustomDomain™'s Free plan is not the whole product. The Power and Secure/SSL API groups are gated entitlements and return `402 plan_upgrade_required` to a tenant without them.
+- This list is maintained by CustomDomain™. Read the vendor pages before deciding, and treat every price here as a snapshot that will drift.
 
 ## DIY building blocks
 
@@ -151,7 +154,7 @@ Connecting a domain for email means DNS records for authentication, not just rou
 
 ## MCP servers and AI-agent tooling
 
-- [customdomain-mcp](https://github.com/CUSTOM-DOMAIN-APP/customdomain-mcp) - Hosted MCP server covering domain search, registration, connection creation, verification, and TLS status in one server. Registered in the official MCP registry as `ai.customdomain/mcp`; streamable HTTP endpoint at `https://mcp.customdomain.ai/mcp` (authenticated, so a bare GET returns 401). No tool accepts raw DNS records as input: record values are computed server-side from vetted templates.
+- [customdomain-mcp](https://github.com/CUSTOM-DOMAIN-APP/customdomain-mcp) - Hosted MCP server, version 0.4.0, with twelve tools covering domain search and registration, connection and its status, email authentication records, and forwarding. Registered in the official MCP registry as `ai.customdomain/mcp`; streamable HTTP endpoint at `https://mcp.customdomain.ai/mcp` (authenticated, so a bare GET returns 401). No tool accepts raw DNS records as input: record values are computed server-side from vetted templates.
 - [domain-check](https://github.com/saidutt46/domain-check) - Domain availability checking with MCP support.
 - [MCP Registry](https://registry.modelcontextprotocol.io) - The official Model Context Protocol server registry.
 
@@ -168,7 +171,7 @@ A record that resolves from the authoritative server but not from a public resol
 
 ## Field guides by vertical
 
-Longer-form guides maintained by Custom Domain, one per vertical. Vendor-authored, so read them as field notes rather than neutral surveys.
+Longer-form guides maintained by CustomDomain™, one per vertical. Vendor-authored, so read them as field notes rather than neutral surveys.
 
 - [connect-domain-for-agencies](https://github.com/CUSTOM-DOMAIN-APP/connect-domain-for-agencies) - Managing domain connection across many client accounts, white-label considerations.
 - [connect-domain-for-ai-agents](https://github.com/CUSTOM-DOMAIN-APP/connect-domain-for-ai-agents) - Agents that provision websites and need real domains, and what an agent-safe DNS surface looks like.
@@ -189,7 +192,7 @@ within its section, factual descriptions. The email authentication section is th
 alphabetical order: it follows the order the records are deployed.
 
 Entries must be directly relevant to connecting customer-owned domains to platforms. Adjacent
-categories — idea validation, general SEO tooling, registrar resale — are out of scope regardless
+categories (idea validation, general SEO tooling, registrar resale) are out of scope regardless
 of quality. Competitors are in scope and are listed; this list is maintained by a vendor and says
 so at every point where that matters.
 
@@ -198,6 +201,25 @@ Two rules that keep the file honest:
 - **Check every link and put the HTTP status in the pull request.** A 403 from GitHub or npm to an anonymous fetch is a bot block, not a dead link, so say so rather than dropping the entry. If a URL redirects, link the final target.
 - **Every number must trace to something a reviewer can open.** Provider counts come from `https://api.customdomain.ai/v1/providers/census`. Prices come from the vendor's own pricing page, with the date it was read.
 
+## Related
+
+- [docs](https://github.com/CUSTOM-DOMAIN-APP/docs): the CustomDomain™ documentation source, rendered at [docs.customdomain.ai](https://docs.customdomain.ai/docs)
+- [customdomain-sdk](https://github.com/CUSTOM-DOMAIN-APP/customdomain-sdk): the browser SDK `customdomain-js` and the React wrapper `@customdomain/react`
+- [customdomain-mcp](https://github.com/CUSTOM-DOMAIN-APP/customdomain-mcp): the hosted MCP server for AI agents
+- [connect-domain-for-ai-agents](https://github.com/CUSTOM-DOMAIN-APP/connect-domain-for-ai-agents): CustomDomain™ for AI Agents
+- [connect-domain-for-agencies](https://github.com/CUSTOM-DOMAIN-APP/connect-domain-for-agencies): CustomDomain™ for Agencies
+- [connect-domain-for-email-platforms](https://github.com/CUSTOM-DOMAIN-APP/connect-domain-for-email-platforms): CustomDomain™ for Email Platforms
+- [connect-domain-for-website-builders](https://github.com/CUSTOM-DOMAIN-APP/connect-domain-for-website-builders): CustomDomain™ for Website Builders
+
+## Support
+
+- **Docs:** [docs.customdomain.ai](https://docs.customdomain.ai/docs)
+- **Questions and ideas:** [GitHub Discussions](https://github.com/CUSTOM-DOMAIN-APP/docs/discussions)
+- **Bugs and corrections:** [open an issue](https://github.com/CUSTOM-DOMAIN-APP/awesome-custom-domains/issues) on this repository
+- **Service status:** [status.customdomain.ai](https://status.customdomain.ai)
+- **Account and billing:** connect@customdomain.ai
+- **Security:** report privately to security@customdomain.ai, never in a public issue. Policy: [app.customdomain.ai/security](https://app.customdomain.ai/security)
+
 ## License
 
-[MIT](./LICENSE). List curation by [Custom Domain](https://customdomain.ai), a product of EVERJUST.
+[MIT](./LICENSE). CustomDomain™ is a product of EverJust Company.
