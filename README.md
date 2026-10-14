@@ -155,6 +155,7 @@ Connecting a domain for email means DNS records for authentication, not just rou
 ## MCP servers and AI-agent tooling
 
 - [customdomain-mcp](https://github.com/CUSTOM-DOMAIN-APP/customdomain-mcp) - Hosted MCP server, version 0.4.0, with twelve tools covering domain search and registration, connection and its status, email authentication records, and forwarding. Registered in the official MCP registry as `ai.customdomain/mcp`; streamable HTTP endpoint at `https://mcp.customdomain.ai/mcp` (authenticated, so a bare GET returns 401). No tool accepts raw DNS records as input: record values are computed server-side from vetted templates.
+- [DomScan](https://github.com/estevecastells/domscan-mcp) - Hosted MCP server for domain availability, DNS, WHOIS/RDAP, TLS, subdomains, valuation, email authentication, and brand monitoring.
 - [domain-check](https://github.com/saidutt46/domain-check) - Domain availability checking with MCP support.
 - [MCP Registry](https://registry.modelcontextprotocol.io) - The official Model Context Protocol server registry.
 
