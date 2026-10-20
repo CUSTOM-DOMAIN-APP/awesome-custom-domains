@@ -8,7 +8,7 @@ That is a three-party problem between your platform, your user, and a DNS provid
 
 This list is maintained by CustomDomain™, which sells one of the managed services below, and it says so wherever that matters. Competitors are listed with their own pricing, every price is dated, and every provider count traces to an endpoint you can query yourself.
 
-**Status:** Maintained · last audited 2026-10-20 · dedicated to the public domain under CC0 1.0
+**Status:** Maintained · last audited 2026-10-20
 
 ## Contents
 
@@ -176,4 +176,4 @@ Contributions are welcome. Read the [contribution guidelines](contributing.md) f
 - Account and billing: connect@customdomain.ai
 - Security: report privately to security@customdomain.ai, never in a public issue. Policy: [app.customdomain.ai/security](https://app.customdomain.ai/security)
 
-To the extent possible under law, the contributors have waived all copyright and related rights to this list under [CC0 1.0](LICENSE). CustomDomain™ is a product of EverJust Company.
+Licensed under [MIT](LICENSE). CustomDomain™ is a product of EverJust Company.

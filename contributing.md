@@ -22,4 +22,4 @@ If an entry is wrong, out of date or dead, open an issue or a pull request with 
 
 ## License
 
-By contributing, you dedicate your contribution to the public domain under [CC0 1.0](LICENSE), like the rest of the list.
+By contributing, you agree that your contribution is licensed under [MIT](LICENSE), like the rest of the list.
