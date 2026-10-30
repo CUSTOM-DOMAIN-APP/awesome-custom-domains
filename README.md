@@ -32,23 +32,17 @@ End-to-end platforms that handle DNS setup, verification, and TLS for your custo
 
 - [Approximated](https://approximated.app) - Custom domain API and managed reverse proxy for connecting user domains, with per-domain pricing.
 - [Cloudflare for SaaS](https://developers.cloudflare.com/cloudflare-for-platforms/cloudflare-for-saas/) - Custom hostnames on Cloudflare's edge: certificate issuance and routing primitives for platforms already on Cloudflare (you build the onboarding UX).
-- [CustomDomain™](https://customdomain.ai) - Domain connection for SaaS: 178 DNS providers catalogued, 62 of them configured automatically (55 by provider API token, 6 by one-click OAuth, 1 by Domain Connect) and the remaining 116 through a guided manual flow. Embeddable widget, REST API, [documentation](https://docs.customdomain.ai/docs), and a hosted MCP server. Plans from $10/mo with a 14 day free trial. This list's maintainer.
+- [CustomDomain™](https://customdomain.ai) - Domain connection for SaaS: 189 DNS providers known, 73 with an automatic path (66 by provider API key, 6 by provider sign-in, 1 by Domain Connect) and exact records with provider steps for the other 116. Embeddable widget, REST API, [documentation](https://docs.customdomain.ai/docs), and a hosted MCP server. Plans from $10/mo, HTTPS on its own edge from the Growth plan, first ten domains free. This list's maintainer.
 - [Entri](https://www.entri.com) - Domain connection suite with an embeddable modal (Connect), managed hosting/SSL (Power), certificates (Secure), in-app domain sales (Sell), and DNS monitoring.
 - [SaaS Custom Domains](https://saascustomdomains.com) - Managed custom domains with API and dashboard, aimed at SaaS products.
 
-The provider split above comes from the live [census endpoint](https://api.customdomain.ai/v1/providers/census), counted 2026-10-20: 178 catalogued, 55 `api`, 6 `oauth`, 1 `dc`, 116 `manual`. The three numbers worth keeping straight are 178 catalogued, 62 with an automatic path, and 116 that still need a human in a DNS dashboard. Read it yourself before you trust it:
-
-```sh
-curl -s https://api.customdomain.ai/v1/providers/census \
-  | python3 -c 'import json,sys,collections; d=json.load(sys.stdin); print(d["count"], collections.Counter(p["mode"] for p in d["providers"]))'
-# 178 Counter({'manual': 116, 'api': 55, 'oauth': 6, 'dc': 1})
-```
+The provider split above comes from the live [census endpoint](https://api.customdomain.ai/v1/providers/census), counted 2026-10-30: 189 known, 66 `api`, 6 `oauth`, 1 `dc`, 116 `manual`. The three numbers worth keeping straight are 189 known, 73 with an automatic path, and 116 that still need a human in a DNS dashboard. The command to re-count them is in the [footnotes](#footnotes).
 
 Read `manual` as "a human still pastes records into a DNS dashboard". It is the largest bucket, and any list that hides that is selling you something.
 
 ## Pricing: how the managed services compare
 
-Published list prices. Approximated, Cloudflare for SaaS, Entri and the CustomDomain™ row were re-read on 2026-10-20 (CustomDomain™ from `GET https://api.customdomain.ai/v1/plans`); SaaS Custom Domains on 2026-08-19. Quota units differ between vendors, so the columns are not directly divisible into each other.
+Published list prices. The CustomDomain™ row was re-read on 2026-10-30 from `GET https://api.customdomain.ai/v1/plans`. Approximated, Cloudflare for SaaS and Entri were re-read on 2026-10-20, SaaS Custom Domains on 2026-08-19. Quota units differ between vendors, so the columns are not directly divisible into each other.
 
 | Service                                                                                                      | Published entry price                                                                          | Free tier                                                          | Billed per          |
 | ------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------- | ------------------------------------------------------------------ | ------------------- |
@@ -62,7 +56,7 @@ Limitations of this table, stated plainly:
 
 - It is one axis. Approximated and Cloudflare for SaaS sell edge primitives and expect you to build the onboarding flow; the others sell the onboarding flow itself. A per-hostname rate and a per-connection annual quota are not the same product.
 - Entri's Growth, Premium, and Enterprise tiers are all "Talk to Sales", so the only Entri number anyone can compare is the Startup tier.
-- CustomDomain™'s entry plan is not the whole product. The Power and Secure/SSL API groups are gated entitlements and return `402 plan_upgrade_required` to a tenant without them.
+- CustomDomain™'s entry plan is not the whole product. Edge serving and the certificate endpoints start on Growth and return `402 plan_upgrade_required` below it. On Starter and Startup, domains point at your own servers and you serve TLS.
 - This list is maintained by CustomDomain™. Read the vendor pages before deciding, and treat every price here as a snapshot that will drift.
 
 ## DIY building blocks
@@ -88,7 +82,7 @@ One certificate per customer domain means issuance is a runtime path, not a depl
 
 ## DNS provider APIs
 
-Provider APIs are the mechanism behind the API-token path: 55 of the 62 automatic providers in the census are configured this way. These four are the ones you will meet first.
+Provider APIs are the mechanism behind the API-token path: 66 of the 73 automatic providers in the census (2026-10-30) are configured this way. These four are the ones you will meet first.
 
 - [Cloudflare DNS API](https://developers.cloudflare.com/api/resources/dns/) - Record CRUD, including the proxied-record and CNAME-flattening behavior that affects apex setup.
 - [DigitalOcean API](https://docs.digitalocean.com/reference/api/digitalocean/) - Domain and domain-record endpoints.
@@ -162,9 +156,40 @@ Longer-form guides maintained by CustomDomain™, one per vertical. Vendor-autho
 
 - [Domain Connect knowledge base](https://github.com/Domain-Connect/knowledge-base) - CC0 background material on the protocol and the problem space, and the source for the often-quoted finding that roughly half of users who attempt manual DNS configuration fail and abandon it.
 - [On-demand TLS](https://customdomain.ai/glossary/on-demand-tls) - Certificate issuance at first request, explained.
-- [One-click DNS setup](https://customdomain.ai/one-click-dns-setup) - How provider authorization connects a domain in about 30 seconds. The 30 seconds applies to the authorization and API-token paths, not to the guided manual flow.
+- [One-click DNS setup](https://customdomain.ai/one-click-dns-setup) - How provider sign-in, one-click setup and a scoped API key write a customer's DNS records without the customer typing them. It covers the automatic paths, not the guided manual flow.
 - [SPF and DMARC Statistics 2026](https://www.stackscan.com/blog/spf-dmarc-statistics) - A September 2026 crawl of the 173.1 million domains on the internet with an MX record, measuring what authentication they actually publish: 52.6% have no SPF, and 45.8% of the DMARC that exists is p=none.
 - [Why custom domains are hard](https://customdomain.ai/why-custom-domains-are-hard) - The three-party problem between platforms, users, and DNS providers.
+
+## Footnotes
+
+The maintainer's own pages for SaaS platforms: [custom domains for SaaS](https://customdomain.ai/gh/awesome).
+
+<!-- facts:start -->
+### Facts and sources
+
+Read from the live endpoints on 2026-10-30. Every number in this README traces to a row here or to a source named
+where it is used. If one does not, open an issue with the file and line.
+
+| Fact                             | Value                                                                                                                                                                                                               | Source                                               |
+| -------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------- |
+| DNS providers known              | 189                                                                                                                                                                                                                 | `GET /v1/providers/census`                           |
+| Automatic path                   | 73: 66 by scoped API key, 6 by provider sign-in (OAuth), 1 by one-click setup (Domain Connect)                                                                                                                      | census `mode`                                        |
+| Exact records and provider steps | 116                                                                                                                                                                                                                 | census `mode`                                        |
+| Going live                       | No TXT ownership record. A domain goes `live` when every record resolves. Statuses: `pending`, `propagating`, `live`, `failed`                                                                                      | docs: concepts/connections                           |
+| HTTPS on the CustomDomain™ edge  | Growth and up. On Starter and Startup, domains point at your servers and you serve TLS                                                                                                                              | `GET /v1/plans`                                      |
+| Plans                            | Starter $10 a month, 10 domains a year, hard cap. Startup $149 a month, 600 a year. Growth $649 a month, 600 a year. Premium and Enterprise by contract, 12,000 a year. 14 day trial on Starter, Startup and Growth | `GET /v1/plans`                                      |
+| Free to start                    | A new workspace connects its first ten domains free. No card needed to sign up                                                                                                                                      | docs: billing/plans-and-quotas                       |
+| REST API                         | 163 operations on 140 paths, OpenAPI 3.1.0                                                                                                                                                                          | `GET /v1/openapi.json`                               |
+| MCP server                       | `customdomain-mcp` 0.6.0, 20 tools. Buying a domain through MCP is off on the hosted service                                                                                                                        | `/.well-known/agent/mcp.json` on mcp.customdomain.ai |
+
+Check the provider split yourself:
+
+```sh
+curl -s https://api.customdomain.ai/v1/providers/census \
+  | python3 -c 'import json,sys,collections; d=json.load(sys.stdin); print(d["count"], collections.Counter(p["mode"] for p in d["providers"]))'
+# 189 Counter({'manual': 116, 'api': 66, 'oauth': 6, 'dc': 1})
+```
+<!-- facts:end -->
 
 ## Contributing
 
