@@ -202,3 +202,7 @@ Contributions are welcome. Read the [contribution guidelines](contributing.md) f
 - Security: report privately to security@customdomain.ai, never in a public issue. Policy: [app.customdomain.ai/security](https://app.customdomain.ai/security)
 
 Licensed under [MIT](LICENSE). CustomDomain™ is a product of EverJust Company.
+
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset=".github/media/customdomain-mark-dark.png"><img src=".github/media/customdomain-mark.png" alt="CustomDomain" width="40"></picture></p>
+<p align="center">Made by <a href="https://customdomain.ai">CustomDomain™</a>: the widget a software product embeds so its users connect their own domain.</p>
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset=".github/media/widget-flow-dark.png"><img src=".github/media/widget-flow-light.png" alt="The CustomDomain widget: your user types their domain, signs in at their provider, and it goes live" width="860"></picture></p>
