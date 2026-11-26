@@ -147,8 +147,8 @@ A record that resolves from the authoritative server but not from a public resol
 
 Longer-form guides maintained by CustomDomain™, one per vertical. Vendor-authored, so read them as field notes rather than neutral surveys.
 
-- [connect-domain-for-agencies](https://github.com/CUSTOM-DOMAIN-APP/connect-domain-for-agencies) - Custom domains for agencies: client domains connected without collecting registrar logins, white-label considerations.
-- [connect-domain-for-ai-agents](https://github.com/CUSTOM-DOMAIN-APP/connect-domain-for-ai-agents) - Custom domains for AI agents: MCP setup for Claude, Cursor, VS Code and GitHub Copilot, and what an agent-safe DNS surface looks like.
+- [Custom domains for agencies](https://customdomain.ai/for/agencies-white-label) - Custom domains for agencies: client domains connected without collecting registrar logins, white-label considerations.
+- [Custom domains for AI agents](https://customdomain.ai/for/ai-agents) - Custom domains for AI agents: MCP setup for Claude, Cursor, VS Code and GitHub Copilot, and what an agent-safe DNS surface looks like.
 - [connect-domain-for-email-platforms](https://github.com/CUSTOM-DOMAIN-APP/connect-domain-for-email-platforms) - Custom sending domains for email platforms: SPF, DKIM and DMARC records for Amazon SES, SendGrid, Postmark and Resend, and automating them.
 - [connect-domain-for-website-builders](https://github.com/CUSTOM-DOMAIN-APP/connect-domain-for-website-builders) - Custom domains for website builders: apex versus subdomain, CNAME flattening, and Next.js on Vercel, Caddy and Cloudflare for SaaS compared.
 
